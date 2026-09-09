@@ -24,11 +24,12 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Entity changed: Generic entity Hubs/details now render source links, relationships, and optional registered local images from one base fact package.
 - Verification: Typecheck, template validation, content validation, rendered SEO validation, route-manifest generation, and multilingual entity fixtures.
 
-### YYYY-MM-DD - Template baseline initialized
+### 2026-09-09 - Adsterra integration activated
 
-- Task: Create the initial generated guide-site baseline.
-- Files changed: Template project files.
-- URLs affected: `/`, `/wiki`, `/guides`, `/release-date`, `/faq`, `/about`, `/contact`, `/privacy-policy`, `/terms`.
-- Content changed: Neutral placeholder content only.
-- Ad baseline: Fixed Adsterra-ready modules are present and disabled; no ad markup or request is emitted.
-- Follow-up: Replace this entry with a real launch/configuration entry when the one-click builder fills the site for a specific game.
+- Task: Populate the fixed six Adsterra ad units (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) by replacing empty placeholders in `src/data/ads.ts` with real publisher codes.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: No URL or layout changes; ad modules were already wired into the shell, hero, article body, right rail, and footer.
+- Ads changed: Six fixed unit placeholders are now populated with publisher codes; values are gated by `adsterra-integrator` only and the page DOM container renders them directly (no sandboxed iframe).
+- Verification: `npm run verify` is required before pushing.
+
+### YYYY-MM-DD - Template baseline initialized
