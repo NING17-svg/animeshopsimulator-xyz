@@ -436,4 +436,129 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+
+  // Co-op multiplayer setup FAQs
+  {
+    id: "coop-players-supported",
+    question:
+      "How many players does Anime Shop Simulator co-op multiplayer support?",
+    answer:
+      "The Steam store page for AppID 3393280 lists Online Co-op as a supported feature, and community coverage on Steambase and Tech in Bengali describes a four-player co-op party. The standard Steam invite flow applies, so the host opens the lobby and Steam friends of the host can be invited into the same shop session.",
+    pageIds: ["fixed-co-op-multiplayer-setup-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "coop-roles-recommended",
+    question:
+      "Which roles should the four players pick in Anime Shop Simulator co-op?",
+    answer:
+      "Community coverage splits the four-player party into Cashier (counter), Stocker (restocks shelves), Decorator (layout and cosmetics), and Gambler (PvP card-battle encounters). The split keeps one player on the counter, one feeding shelves, one on layout, and one on the PvP card encounters that show up inside the day loop.",
+    pageIds: ["fixed-co-op-multiplayer-setup-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "coop-pvp-same-lobby",
+    question:
+      "Does Anime Shop Simulator PvP use the same lobby as co-op?",
+    answer:
+      "Yes. The Steam store page lists Online Co-op and Online PvP as supported features for AppID 3393280, and the lobby that hosts the four-player shop session is the same lobby that launches the PvP card-battle rounds. A party that mixes shop-management and PvP in one evening does not need to re-invite between the two modes.",
+    pageIds: ["fixed-co-op-multiplayer-setup-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "coop-family-sharing",
+    question:
+      "Can I use Steam Family Sharing to play Anime Shop Simulator co-op multiplayer?",
+    answer:
+      "Anime Shop Simulator co-op multiplayer rides on the standard Steam invite flow, which means the usual Steam Family Sharing caveats apply. A borrower through Steam Family Sharing can join a co-op session only when the library owner is not actively playing AppID 3393280, only one Family Sharing borrower can be in a co-op session at a time, and unlocked Steam Achievements are tied to the borrowing account only while the borrower has access.",
+    pageIds: ["fixed-co-op-multiplayer-setup-en-us"],
+    category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "coop-achievements-multiplayer",
+    question:
+      "Can I unlock Steam Achievements inside an Anime Shop Simulator co-op session?",
+    answer:
+      "Steam Achievements for AppID 3393280 unlock inside the multiplayer session the same way they unlock in solo play, because the standard Steam achievement pop-up fires on the player whose action triggered the unlock. In a four-player co-op party, achievements roll into each player's own Steam profile rather than the host's profile. Exact per-achievement co-op eligibility beyond the store page's supported-features list is not confirmed in Steam community as of 2026-09-09, so do not assume every achievement can be earned in a co-op session.",
+    pageIds: ["fixed-co-op-multiplayer-setup-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // Shop defense / checkout / events FAQs
+  {
+    id: "defense-threats-list",
+    question:
+      "What threats does the Anime Shop Simulator shop defense layer cover?",
+    answer:
+      "The Steam community hub announcement `Your Shop is in Danger!` for AppID 3393280 names thieves, vandals, and litterers as the threat roster. The same announcement introduces the trusty bat as the player's counter tool against those threats.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "defense-trusty-bat",
+    question:
+      "How do I use the trusty bat to defend the Anime Shop Simulator shop?",
+    answer:
+      "The trusty bat sits next to the register so the player can grab it without leaving the counter. Swing it at thieves, vandals, or litterers only when a threat is in the same room as the player; swinging at an empty shop burns the day's actions and stalls the customer queue. Exact threat spawn rates or per-threat damage values beyond what the hub announcement describes are not confirmed in Steam community as of 2026-09-09.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "checkout-id-check-manga",
+    question:
+      "How does the Anime Shop Simulator 18+ manga ID check work at checkout?",
+    answer:
+      "The Steam community hub announcement `Checkout Checks` for AppID 3393280 introduces ID verification at the counter for any 18+ manga SKU on the shelves. The mechanic works like a real-world age-restricted sale: the player must visually confirm the customer's ID before ringing up an 18+ SKU. Skipping the ID check when the customer is underage fines the shop, while running it on adult customers matches the standard checkout flow.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "checkout-body-scanner",
+    question:
+      "What do the hidden body scanners at the Anime Shop Simulator counter do?",
+    answer:
+      "The same `Checkout Checks` Steam community hub announcement introduces hidden body scanners that sit alongside the ID check at the counter. The scanners trigger on customers attempting to leave with concealed restricted SKUs, which lets the shop catch shoplifting attempts that would otherwise drain the day's revenue. Exact scanner trigger rules beyond the announcement are not confirmed in Steam community as of 2026-09-09, so treat the scanner as a passive defense layer rather than a tool the player activates by hand.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "events-autograph-signings",
+    question:
+      "How do Anime Shop Simulator autograph signings work as an event mechanic?",
+    answer:
+      "The Steam store description for AppID 3393280 and Steambase list autograph signings as an event mechanic that breaks the daily restock-serve-upgrade routine and unlocks new inventory. An autograph signing is a scheduled in-store event where the shop reserves counter time for a featured creator or character, draws a temporary surge of customers, and rewards the shop with event-only SKUs that go onto the shelves after the signing ends.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "events-card-tournaments",
+    question:
+      "How do Anime Shop Simulator trading card tournaments work as an event mechanic?",
+    answer:
+      "The Steam store description for AppID 3393280 and Steambase list trading card tournaments as a second event mechanic. A trading card tournament fills the back of the shop with collectors for a fixed window, draws steady foot traffic to the front counter, and unlocks card-pack inventory for the shop's shelves. Exact tournament scheduling rules beyond the store description are not confirmed in Steam community or creator videos as of 2026-09-09.",
+    pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];

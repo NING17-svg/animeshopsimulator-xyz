@@ -32,4 +32,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Ads changed: Six fixed unit placeholders are now populated with publisher codes; values are gated by `adsterra-integrator` only and the page DOM container renders them directly (no sandboxed iframe).
 - Verification: `npm run verify` is required before pushing.
 
+### 2026-09-09 - Co-op multiplayer setup and shop defense, checkout, and events guides added
+
+- Task: Add two new guides that close the multiplayer and shop-incident coverage gap on the Steam AppID 3393280 release, and correct the `/about/` callout that claimed multiplayer was unannounced.
+- Files changed: `src/data/pages/fixed-pages-3.ts` (new), `src/data/pages/fixed-pages.ts` (callout correction and related links), `src/data/pages/fixed-pages-2.ts` (shops/walkthrough related links and walkthrough link-out map), `src/data/pages/home.ts` (page-map and related links), `src/data/faq.ts` (11 new FAQ entries for both pages), `src/lib/content.ts` (register the new fixed-pages bundle), and `CONTENT_INDEX.md`.
+- URLs affected: `/co-op-multiplayer-setup` (new), `/shop-defense-and-checkout` (new), plus internal links from `/about/`, `/shops/`, `/walkthrough/`, and the homepage.
+- SEO/GEO changed: Two new Article/BreadcrumbList/FAQPage pages now index the Online Co-op / Online PvP, four-role split (Cashier / Stocker / Decorator / Gambler), Family Sharing caveats, Steam Achievements behavior, thieves / vandals / litterers and the trusty bat, 18+ manga ID verification and body scanners, and autograph signings / trading card tournament event rotation.
+- Content changed: `/about/` callout no longer claims multiplayer is unannounced; it now points readers at the new co-op guide.
+- Verification: `npm run verify` is required before pushing.
+
 ### YYYY-MM-DD - Template baseline initialized

@@ -21,6 +21,8 @@ hreflang, sitemap, and route-manifest validation.
 | `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
 | `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |
 | `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
+| `/co-op-multiplayer-setup` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator co-op multiplayer setup | Invite up to 4 players and split Cashier / Stocker / Decorator / Gambler roles | Shop Guide / Gameplay Overview / Walkthrough | Supporting hub | Co-op setup, Family Sharing, Steam Achievements. |
+| `/shop-defense-and-checkout` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator shop defense, checkout, and events | Defend against thieves, run 18+ manga scans, host autograph signings and card tournaments | Shop Guide / Gameplay Overview / Co-Op Setup | Supporting hub | Trusty bat, ID checks, body scanners, autograph signings, card tournaments. |
 
 ## Generated Route Families
 

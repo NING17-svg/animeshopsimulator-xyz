@@ -14,9 +14,19 @@
     "translationKey": "identity-overview",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/about/",
+    "url": "/about",
     "alternates": {
-      "en-US": "/about/"
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-co-op-multiplayer-setup-en-us",
+    "translationKey": "co-op-multiplayer-setup",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/co-op-multiplayer-setup",
+    "alternates": {
+      "en-US": "/co-op-multiplayer-setup"
     }
   },
   {
@@ -24,9 +34,9 @@
     "translationKey": "contact",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/contact/",
+    "url": "/contact",
     "alternates": {
-      "en-US": "/contact/"
+      "en-US": "/contact"
     }
   },
   {
@@ -34,9 +44,9 @@
     "translationKey": "demo-playtest",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/demo/",
+    "url": "/demo",
     "alternates": {
-      "en-US": "/demo/"
+      "en-US": "/demo"
     }
   },
   {
@@ -44,9 +54,9 @@
     "translationKey": "gameplay-overview",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/gameplay/",
+    "url": "/gameplay",
     "alternates": {
-      "en-US": "/gameplay/"
+      "en-US": "/gameplay"
     }
   },
   {
@@ -54,9 +64,9 @@
     "translationKey": "privacy-policy",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/privacy-policy/",
+    "url": "/privacy-policy",
     "alternates": {
-      "en-US": "/privacy-policy/"
+      "en-US": "/privacy-policy"
     }
   },
   {
@@ -64,9 +74,19 @@
     "translationKey": "release-date",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/release/",
+    "url": "/release",
     "alternates": {
-      "en-US": "/release/"
+      "en-US": "/release"
+    }
+  },
+  {
+    "id": "fixed-shop-defense-checkout-en-us",
+    "translationKey": "shop-defense-and-checkout",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/shop-defense-and-checkout",
+    "alternates": {
+      "en-US": "/shop-defense-and-checkout"
     }
   },
   {
@@ -74,9 +94,9 @@
     "translationKey": "shop-management",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/shops/",
+    "url": "/shops",
     "alternates": {
-      "en-US": "/shops/"
+      "en-US": "/shops"
     }
   },
   {
@@ -84,9 +104,9 @@
     "translationKey": "steam-store-page",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/steam/",
+    "url": "/steam",
     "alternates": {
-      "en-US": "/steam/"
+      "en-US": "/steam"
     }
   },
   {
@@ -94,9 +114,9 @@
     "translationKey": "terms",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/terms/",
+    "url": "/terms",
     "alternates": {
-      "en-US": "/terms/"
+      "en-US": "/terms"
     }
   },
   {
@@ -104,19 +124,19 @@
     "translationKey": "upgrades-money",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/upgrades/",
+    "url": "/upgrades",
     "alternates": {
-      "en-US": "/upgrades/"
+      "en-US": "/upgrades"
     }
   },
   {
     "id": "guides",
-    "translationKey": "beginner-walkthrough",
+    "translationKey": "guides",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/walkthrough/",
+    "url": "/walkthrough",
     "alternates": {
-      "en-US": "/walkthrough/"
+      "en-US": "/walkthrough"
     }
   },
   {
@@ -124,9 +144,9 @@
     "translationKey": "wiki",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/wiki/",
+    "url": "/wiki",
     "alternates": {
-      "en-US": "/wiki/"
+      "en-US": "/wiki"
     }
   }
 ]

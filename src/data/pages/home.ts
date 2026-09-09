@@ -121,6 +121,18 @@ export const homePage: PageContent = {
             "Onboarding hub linking every guide for first-time Steam players.",
           href: "/walkthrough/",
         },
+        {
+          title: "Co-op multiplayer setup",
+          summary:
+            "Invite up to four friends, split Cashier / Stocker / Decorator / Gambler roles, and run PvP card battles in the same lobby.",
+          href: "/co-op-multiplayer-setup/",
+        },
+        {
+          title: "Shop defense, checkout, and events",
+          summary:
+            "Defend against thieves and vandals with the trusty bat, run 18+ manga ID checks and body scanners, and host autograph signings and card tournaments.",
+          href: "/shop-defense-and-checkout/",
+        },
       ],
     },
     {
@@ -140,6 +152,8 @@ export const homePage: PageContent = {
     "fixed-shop-management-en-us",
     "fixed-upgrades-money-en-us",
     "fixed-demo-playtest-en-us",
+    "fixed-co-op-multiplayer-setup-en-us",
+    "fixed-shop-defense-checkout-en-us",
     "guides",
   ],
   schemaTypes: ["WebSite", "CollectionPage", "FAQPage"],

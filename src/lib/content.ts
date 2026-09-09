@@ -3,6 +3,7 @@ import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
 import { fixedPages } from "@/data/pages/fixed-pages";
 import { fixedPagesExtra } from "@/data/pages/fixed-pages-2";
+import { fixedPagesMore } from "@/data/pages/fixed-pages-3";
 import { homePage } from "@/data/pages/home";
 import { sitePages } from "@/data/pages/site-pages";
 import { wikiPages } from "@/data/pages/wiki-pages";
@@ -14,6 +15,7 @@ const fixedPagesBundle: PageContent[] = [
   ...wikiPages,
   ...fixedPages,
   ...fixedPagesExtra,
+  ...fixedPagesMore,
   ...sitePages,
 ];
 

@@ -98,7 +98,7 @@ export const fixedPages: PageContent[] = [
         tone: "unknown",
         title: "What is and is not announced as of 2026-09-09",
         body:
-          "Console ports: Not announced as of 2026-09-09.\nConsole exclusivity: Not announced as of 2026-09-09.\nMultiplayer modes: Not announced as of 2026-09-09.\nMicrotransactions: Not announced as of 2026-09-09.",
+          "Console ports: Not announced as of 2026-09-09.\nConsole exclusivity: Not announced as of 2026-09-09.\nMicrotransactions: Not announced as of 2026-09-09.\n\nMultiplayer modes are listed on the Steam store page for AppID 3393280 as Online Co-op and Online PvP, and the co-op setup is covered on the [co-op multiplayer setup guide](/co-op-multiplayer-setup/).",
       },
       {
         id: "identity-sources",
@@ -121,6 +121,8 @@ export const fixedPages: PageContent[] = [
       "fixed-shop-management-en-us",
       "fixed-upgrades-money-en-us",
       "fixed-demo-playtest-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+      "fixed-shop-defense-checkout-en-us",
       "guides",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -446,6 +448,8 @@ export const fixedPages: PageContent[] = [
       "fixed-identity-overview-en-us",
       "fixed-shop-management-en-us",
       "fixed-upgrades-money-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+      "fixed-shop-defense-checkout-en-us",
       "guides",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],

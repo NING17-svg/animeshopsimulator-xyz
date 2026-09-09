@@ -68,7 +68,7 @@ export const fixedPagesExtra: PageContent[] = [
         type: "prose",
         heading: "Customer flow tips for the anime shop simulator shop",
         body:
-          "Customer flow is the fourth habit. A queue builds up when restocking lags, prices are too low to clear shelf space, or the layout bottlenecks near the register. Watch the queue length and react before customers walk out: restock the empty shelf, slow down price increases on whatever is causing the wait, or rearrange the counter so two customers can be served in parallel. The Steam community hub for AppID 3393280 treats customer flow as a downstream symptom of upstream habits — restocking, pricing, and layout — rather than a separate mechanic.",
+          "Customer flow is the fourth habit. A queue builds up when restocking lags, prices are too low to clear shelf space, or the layout bottlenecks near the register. Watch the queue length and react before customers walk out: restock the empty shelf, slow down price increases on whatever is causing the wait, or rearrange the counter so two customers can be served in parallel. The Steam community hub for AppID 3393280 treats customer flow as a downstream symptom of upstream habits — restocking, pricing, and layout — rather than a separate mechanic. Once the core loop is stable, the next queue risk is no longer empty shelves but thieves, vandals, and litterers in the shop, plus ID checks and body scanners at the counter; the [shop defense, checkout, and events guide](/shop-defense-and-checkout/) covers that layer.",
       },
       {
         id: "shops-pitfalls",
@@ -109,6 +109,8 @@ export const fixedPagesExtra: PageContent[] = [
       "fixed-identity-overview-en-us",
       "fixed-gameplay-overview-en-us",
       "fixed-upgrades-money-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+      "fixed-shop-defense-checkout-en-us",
       "guides",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
@@ -429,7 +431,7 @@ export const fixedPagesExtra: PageContent[] = [
         type: "prose",
         heading: "Link-out summary for the anime shop simulator walkthrough",
         body:
-          "Every guide referenced above lives on this site, so the link-out map for the anime shop simulator walkthrough is:\n\n- [identity overview](/about/)\n- [release date](/release/)\n- [Steam store page summary](/steam/)\n- [gameplay overview](/gameplay/)\n- [shop management guide](/shops/)\n- [upgrades and money guide](/upgrades/)\n- [demo and playtest page](/demo/)\n\nEach of those guides is part of the launch scope declared in the Site Plan and is the only place this hub links out to.",
+          "Every guide referenced above lives on this site, so the link-out map for the anime shop simulator walkthrough is:\n\n- [identity overview](/about/)\n- [release date](/release/)\n- [Steam store page summary](/steam/)\n- [gameplay overview](/gameplay/)\n- [shop management guide](/shops/)\n- [upgrades and money guide](/upgrades/)\n- [demo and playtest page](/demo/)\n- [co-op multiplayer setup](/co-op-multiplayer-setup/)\n- [shop defense, checkout, and events](/shop-defense-and-checkout/)\n\nEach of those guides is part of the launch scope declared in the Site Plan and is the only place this hub links out to.",
       },
       {
         id: "walkthrough-sources",
@@ -454,6 +456,8 @@ export const fixedPagesExtra: PageContent[] = [
       "fixed-shop-management-en-us",
       "fixed-upgrades-money-en-us",
       "fixed-demo-playtest-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+      "fixed-shop-defense-checkout-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
