@@ -9,7 +9,7 @@
   },
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://animeshopsimulator.xyz",
-    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "",
+    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "G-Q6XQ62DE4K",
     "NEXT_PUBLIC_BING_SITE_AUTH_CODE": ""
   }
 }
