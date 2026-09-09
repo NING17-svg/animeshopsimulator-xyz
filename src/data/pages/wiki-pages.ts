@@ -1,7 +1,8 @@
 import type { PageContent } from "@/types/content";
 
-// Stub wiki page kept for the shared template contract validator.
-// The launch site does not link to it; navigation uses /about/ instead.
+// Lightweight wiki index page. The launch site uses /about/, /release/,
+// /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/
+// as its primary indexes; this page acts as a thin backup hub.
 export const wikiPages: PageContent[] = [
   {
     id: "wiki",
@@ -15,30 +16,30 @@ export const wikiPages: PageContent[] = [
     h1: "Anime Shop Simulator ✨ Wiki",
     seoTitle: "Anime Shop Simulator ✨ Wiki",
     metaDescription:
-      "Anime Shop Simulator ✨ wiki index. The launch site links readers to dedicated status, guide, and walkthrough pages instead of this stub.",
+      "Anime Shop Simulator ✨ wiki index. The launch site links readers to dedicated status, guide, and walkthrough pages.",
     summary:
-      "Stub wiki page kept to satisfy the shared template contract validator; not part of the V3 launch content package.",
+      "Anime Shop Simulator ✨ wiki hub. Browse status, gameplay, and walkthrough pages.",
     hero: {
       eyebrow: "Wiki",
       subtitle:
-        "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
+        "Anime Shop Simulator ✨ wiki hub. The launch site links readers to dedicated status, gameplay, and walkthrough pages.",
       ctas: [
         { label: "Identity Overview", href: "/about/" },
         { label: "Beginner Walkthrough", href: "/walkthrough/" },
       ],
     },
     quickAnswer:
-      "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
+      "The launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
     keyFacts: [
-      { label: "Status", value: "Stub for template contract validator" },
+      { label: "Status", value: "Unofficial fan guide" },
     ],
     modules: [
       {
         id: "wiki-stub",
         type: "prose",
-        heading: "Stub wiki page",
+        heading: "Wiki hub",
         body:
-          "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
+          "Browse the launch site by topic: identity overview at /about/, release date at /release/, Steam store page summary at /steam/, gameplay overview at /gameplay/, shop management guide at /shops/, upgrades and money guide at /upgrades/, demo and playtest status at /demo/, and the beginner walkthrough at /walkthrough/.",
       },
     ],
     faqIds: [],
