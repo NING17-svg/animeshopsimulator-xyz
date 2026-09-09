@@ -1,24 +1,24 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
+import { fixedPages } from "@/data/pages/fixed-pages";
+import { fixedPagesExtra } from "@/data/pages/fixed-pages-2";
 import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
 import { sitePages } from "@/data/pages/site-pages";
 import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
-const fixedPages: PageContent[] = [
+const fixedPagesBundle: PageContent[] = [
   homePage,
   ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  ...fixedPages,
+  ...fixedPagesExtra,
   ...sitePages,
 ];
 
 const pages: PageContent[] = [
-  ...fixedPages,
+  ...fixedPagesBundle,
   ...buildEntityPages(entityFamilies),
 ];
 
@@ -51,6 +51,12 @@ export function getPageBySlug(slug: string): PageContent | undefined {
 
 export function getPageById(id: string): PageContent | undefined {
   return pages.find((page) => page.id === id);
+}
+
+export function getPageByTranslationKey(
+  translationKey: string,
+): PageContent | undefined {
+  return pages.find((page) => page.translationKey === translationKey);
 }
 
 export function getLanguageAlternates(
@@ -98,30 +104,38 @@ function compareUrls(left: PageContent, right: PageContent): number {
 
 /**
  * Returns a small, deterministic set of content pages for a locale's homepage.
- * Trust pages and tools are intentionally excluded so this is driven only by
- * editorial review dates on actual indexable content pages.
+ */
+export function getHomepageRelatedPages(
+  locale: string,
+  limit = 6,
+): PageContent[] {
+  return pages
+    .filter(
+      (page) => page.locale === locale && page.routeKind === "fixed" && page.pageType !== "site",
+    )
+    .sort(compareUrls)
+    .slice(0, limit);
+}
+
+/**
+ * Returns a deterministic recent-updates feed for the locale's homepage.
+ * Filters out the home page itself and trust/contact-style pages, then
+ * sorts ascending by URL for a stable ordering.
  */
 export function getRecentUpdates(
   locale: string,
-  limit = 5,
-  sourcePages: PageContent[] = getIndexablePages(),
+  limit = 6,
+  sourcePages: PageContent[] = pages,
 ): PageContent[] {
-  if (limit <= 0) return [];
-
   return sourcePages
-    .filter(
-      (page) =>
-        page.locale === locale &&
-        page.pageType !== "home" &&
-        page.pageType !== "faq" &&
-        page.pageType !== "site" &&
-        page.routeKind !== "tool",
-    )
-    .sort((left, right) => {
-      if (left.lastReviewed !== right.lastReviewed) {
-        return left.lastReviewed < right.lastReviewed ? 1 : -1;
-      }
-      return compareUrls(left, right);
+    .filter((page) => {
+      if (page.locale !== locale) return false;
+      if (page.routeKind === "home") return false;
+      if (page.pageType === "site") return false;
+      if (page.pageType === "faq") return false;
+      if (/home/i.test(page.id)) return false;
+      return true;
     })
+    .sort(compareUrls)
     .slice(0, limit);
 }

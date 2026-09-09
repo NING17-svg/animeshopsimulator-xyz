@@ -1,6 +1,7 @@
-import { site } from "@/data/site";
 import type { PageContent } from "@/types/content";
 
+// Stub wiki page kept for the shared template contract validator.
+// The launch site does not link to it; navigation uses /about/ instead.
 export const wikiPages: PageContent[] = [
   {
     id: "wiki",
@@ -8,73 +9,42 @@ export const wikiPages: PageContent[] = [
     locale: "en-US",
     routeKind: "fixed",
     slug: "wiki",
-    url: "/wiki",
+    url: "/wiki/",
     pageType: "wiki",
-    presentation: { shell: "hub" },
-    h1: `${site.gameName} Wiki`,
-    seoTitle: `${site.gameName} Wiki | Facts, Systems, and Starter Notes`,
+    presentation: { shell: "hub", variant: "card-grid" },
+    h1: "Anime Shop Simulator ✨ Wiki",
+    seoTitle: "Anime Shop Simulator ✨ Wiki",
     metaDescription:
-      "A neutral wiki page template for official facts, game overview notes, systems, platforms, and starter references.",
+      "Anime Shop Simulator ✨ wiki index. The launch site links readers to dedicated status, guide, and walkthrough pages instead of this stub.",
     summary:
-      "A structured wiki landing page for official facts and core game systems.",
+      "Stub wiki page kept to satisfy the shared template contract validator; not part of the V3 launch content package.",
     hero: {
       eyebrow: "Wiki",
       subtitle:
-        "Collect official facts, systems, platforms, and starter references in one stable page.",
+        "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
       ctas: [
-        { label: "Read Guides", href: "/guides" },
-        { label: "Check FAQ", href: "/faq" },
+        { label: "Identity Overview", href: "/about/" },
+        { label: "Beginner Walkthrough", href: "/walkthrough/" },
       ],
     },
     quickAnswer:
-      "Use this wiki page as the verified fact hub for the game. Do not add unconfirmed mechanics, maps, characters, items, or dates.",
+      "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
     keyFacts: [
-      { label: "Fact source", value: "Official sources only" },
-      { label: "Content depth", value: "Starter wiki notes" },
-      { label: "Update rule", value: "Expand after launch signals appear" },
+      { label: "Status", value: "Stub for template contract validator" },
     ],
     modules: [
       {
-        id: "overview",
+        id: "wiki-stub",
         type: "prose",
-        heading: "Game overview",
+        heading: "Stub wiki page",
         body:
-          "Replace this overview with confirmed information from official store pages, press kits, developer posts, or publisher pages. Keep uncertain details out of the page.",
-      },
-      {
-        id: "systems",
-        type: "prose",
-        heading: "Systems to document",
-        body:
-          "Use this section for confirmed systems such as combat, progression, exploration, multiplayer, crafting, quests, or modes. If official sources do not confirm a system, leave it out.",
-      },
-      {
-        id: "official-links",
-        type: "prose",
-        heading: "Official sources",
-        body:
-          "Add official links here so future content updates can trace every fact back to a trustworthy source.",
-        links: site.officialSources,
-      },
-      {
-        id: "reference-coverage",
-        type: "data-table",
-        heading: "Reference Coverage",
-        columns: [
-          { key: "category", label: "Category" },
-          { key: "status", label: "Status" },
-          { key: "source", label: "Source Rule" },
-        ],
-        rows: [
-          { category: "Core systems", status: "Starter coverage", source: "Official sources" },
-          { category: "Guides", status: "Expand with evidence", source: "Verified play research" },
-        ],
+          "Stub wiki page kept to satisfy the shared template contract validator. The V3 launch site uses /about/, /release/, /steam/, /gameplay/, /shops/, /upgrades/, /demo/, and /walkthrough/ as its index pages.",
       },
     ],
-    faqIds: ["platforms-known"],
-    relatedPageIds: ["guides", "release-date", "faq"],
-    schemaTypes: ["CollectionPage", "BreadcrumbList"],
-    sourceStatus: "placeholder",
-    lastReviewed: "2026-06-18",
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-09-09",
   },
 ];

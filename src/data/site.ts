@@ -24,14 +24,15 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: "Template Game Guide",
-  brandMark: "GG",
-  gameName: "Template Game",
+  name: "Anime Shop Simulator Wiki",
+  brandMark: "AS",
+  gameName: "Anime Shop Simulator ✨",
   domain: "animeshopsimulator.xyz",
-  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
+  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://animeshopsimulator.xyz").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "Anime Shop Simulator ✨ releases on Steam on 2026-09-11 (AppID 3393280). Find the Steam store page, gameplay overview, shop tips, upgrades guide, and beginner walkthrough.",
+  tagline:
+    "Release, gameplay, shop tips, upgrades, and walkthrough for Anime Shop Simulator ✨ on Steam.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -53,16 +54,32 @@ export const site: SiteConfig = {
       },
     },
   ],
-  author: "Template Game Guide",
+  author: "Anime Shop Simulator Wiki",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
-      label: "Official website",
-      href: "https://example.com",
-      description: "Replace this with the game publisher or developer website.",
+      label: "Steam store page",
+      href: "https://store.steampowered.com/app/3393280",
+      description:
+        "Official Anime Shop Simulator ✨ Steam store page for AppID 3393280.",
+    },
+    {
+      label: "SteamDB listing",
+      href: "https://steamdb.info/app/3393280/",
+      description: "SteamDB metadata and historical tracking for AppID 3393280.",
+    },
+    {
+      label: "Steam community hub",
+      href: "https://steamcommunity.com/app/3393280",
+      description: "Community hub for AppID 3393280.",
+    },
+    {
+      label: "ProtonDB entry",
+      href: "https://www.protondb.com/app/3393280",
+      description: "ProtonDB Linux / Steam Deck compatibility for AppID 3393280.",
     },
   ],
   disclaimer:
-    "This is an unofficial fan guide template. Replace placeholder facts with official sources before launch.",
+    "Anime Shop Simulator ✨ is an unofficial fan guide. All facts come from the cited Steam, SteamDB, and game-check brief sources as of 2026-09-09.",
 };

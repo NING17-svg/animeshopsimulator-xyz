@@ -6,17 +6,19 @@ export interface LocalizedNavigationItem {
 }
 
 export const primaryNavigation: LocalizedNavigationItem[] = [
-  { href: "/wiki", labels: { "en-US": "Wiki" } },
-  { href: "/guides", labels: { "en-US": "Guides" } },
-  { href: "/release-date", labels: { "en-US": "Release Date" } },
-  { href: "/faq", labels: { "en-US": "FAQ" } },
+  { href: "/about/", labels: { "en-US": "About" } },
+  { href: "/release/", labels: { "en-US": "Release" } },
+  { href: "/gameplay/", labels: { "en-US": "Gameplay" } },
+  { href: "/shops/", labels: { "en-US": "Shop Guide" } },
+  { href: "/upgrades/", labels: { "en-US": "Upgrades" } },
+  { href: "/walkthrough/", labels: { "en-US": "Walkthrough" } },
 ];
 
 export const footerNavigation: LocalizedNavigationItem[] = [
-  { href: "/about", labels: { "en-US": "About" } },
-  { href: "/contact", labels: { "en-US": "Contact" } },
-  { href: "/privacy-policy", labels: { "en-US": "Privacy" } },
-  { href: "/terms", labels: { "en-US": "Terms" } },
+  { href: "/about/", labels: { "en-US": "About" } },
+  { href: "/contact/", labels: { "en-US": "Contact" } },
+  { href: "/privacy-policy/", labels: { "en-US": "Privacy" } },
+  { href: "/terms/", labels: { "en-US": "Terms" } },
 ];
 
 export function navigationLabel(

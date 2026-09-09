@@ -1,0 +1,132 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "fixed-identity-overview-en-us",
+    "translationKey": "identity-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about/",
+    "alternates": {
+      "en-US": "/about/"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact/",
+    "alternates": {
+      "en-US": "/contact/"
+    }
+  },
+  {
+    "id": "fixed-demo-playtest-en-us",
+    "translationKey": "demo-playtest",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/demo/",
+    "alternates": {
+      "en-US": "/demo/"
+    }
+  },
+  {
+    "id": "fixed-gameplay-overview-en-us",
+    "translationKey": "gameplay-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/gameplay/",
+    "alternates": {
+      "en-US": "/gameplay/"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy/",
+    "alternates": {
+      "en-US": "/privacy-policy/"
+    }
+  },
+  {
+    "id": "fixed-release-date-en-us",
+    "translationKey": "release-date",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release/",
+    "alternates": {
+      "en-US": "/release/"
+    }
+  },
+  {
+    "id": "fixed-shop-management-en-us",
+    "translationKey": "shop-management",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/shops/",
+    "alternates": {
+      "en-US": "/shops/"
+    }
+  },
+  {
+    "id": "fixed-steam-store-page-en-us",
+    "translationKey": "steam-store-page",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/steam/",
+    "alternates": {
+      "en-US": "/steam/"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms/",
+    "alternates": {
+      "en-US": "/terms/"
+    }
+  },
+  {
+    "id": "fixed-upgrades-money-en-us",
+    "translationKey": "upgrades-money",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/upgrades/",
+    "alternates": {
+      "en-US": "/upgrades/"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "beginner-walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/walkthrough/",
+    "alternates": {
+      "en-US": "/walkthrough/"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki/",
+    "alternates": {
+      "en-US": "/wiki/"
+    }
+  }
+]
