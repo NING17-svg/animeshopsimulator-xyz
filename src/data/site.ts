@@ -27,7 +27,7 @@ export const site: SiteConfig = {
   name: "Template Game Guide",
   brandMark: "GG",
   gameName: "Template Game",
-  domain: "example.com",
+  domain: "animeshopsimulator.xyz",
   baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
   description:
     "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
