@@ -52,7 +52,7 @@ export const faqItems: FAQItem[] = [
     question: "Is this game on Steam?",
     answer:
       "Yes. It is a Steam release with AppID 3393280 and a confirmed Steam store page at `https://store.steampowered.com/app/3393280`.",
-    pageIds: ["identity-overview"],
+    pageIds: ["fixed-identity-overview-en-us"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "official",
@@ -62,7 +62,7 @@ export const faqItems: FAQItem[] = [
     question: "When does it release?",
     answer:
       "The release date listed in the planning brief is 2026-09-11. Confirm the final launch date on the Steam store page on publication day.",
-    pageIds: ["identity-overview"],
+    pageIds: ["fixed-identity-overview-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -73,7 +73,7 @@ export const faqItems: FAQItem[] = [
       "How is this game different from the Roblox `anime card shop simulator` franchise?",
     answer:
       "The Roblox franchise lives on Roblox, uses a different economy, and has its own codes system. The Steam release is Steam-only with a single AppID and no codes roster; the two share vocabulary but not platform, developer, or progression.",
-    pageIds: ["identity-overview"],
+    pageIds: ["fixed-identity-overview-en-us"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "official",
@@ -83,7 +83,7 @@ export const faqItems: FAQItem[] = [
     question: "Will it come to consoles?",
     answer:
       "Console support is not announced as of 2026-09-09. Watch the Steam store page and SteamDB for any future platform additions.",
-    pageIds: ["identity-overview"],
+    pageIds: ["fixed-identity-overview-en-us"],
     category: "platform",
     schemaEligible: true,
     sourceStatus: "official",
@@ -95,7 +95,7 @@ export const faqItems: FAQItem[] = [
     question: "What is the Anime Shop Simulator release date?",
     answer:
       "The Steam release date is 2026-09-11 in the 2026-09-09 planning snapshot. Always re-confirm on the Steam store page for AppID 3393280 on launch day.",
-    pageIds: ["release-date"],
+    pageIds: ["fixed-release-date-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -106,7 +106,7 @@ export const faqItems: FAQItem[] = [
       "Which platforms are confirmed for the Anime Shop Simulator release?",
     answer:
       "Steam (Windows PC) is the only platform listed on the Steam store page as of 2026-09-09. Console ports are not announced as of 2026-09-09.",
-    pageIds: ["release-date"],
+    pageIds: ["fixed-release-date-en-us"],
     category: "platform",
     schemaEligible: true,
     sourceStatus: "official",
@@ -117,7 +117,7 @@ export const faqItems: FAQItem[] = [
       "Is there a demo or playtest for Anime Shop Simulator before release?",
     answer:
       "Demo and playtest variants appear in pre-launch search demand, but the live availability on the Steam store page is the source of truth. See the demo and playtest page for the current access status.",
-    pageIds: ["release-date"],
+    pageIds: ["fixed-release-date-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -127,7 +127,7 @@ export const faqItems: FAQItem[] = [
     question: "Can I pre-order Anime Shop Simulator?",
     answer:
       "Pre-order availability is determined by the Steam store page for AppID 3393280. Re-check the live store page on publication day before recommending pre-order to a reader.",
-    pageIds: ["release-date"],
+    pageIds: ["fixed-release-date-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -139,7 +139,7 @@ export const faqItems: FAQItem[] = [
     question: "What is the Anime Shop Simulator Steam AppID?",
     answer:
       "The Steam AppID is 3393280. The store page URL `https://store.steampowered.com/app/3393280`, the SteamDB listing, and the community hub all point at this AppID.",
-    pageIds: ["steam-store-page"],
+    pageIds: ["fixed-steam-store-page-en-us"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "official",
@@ -149,7 +149,7 @@ export const faqItems: FAQItem[] = [
     question: "Where can I see Anime Shop Simulator pricing?",
     answer:
       "Pricing is shown on the Steam store page for AppID 3393280. Re-open the live store page before quoting a price, since pre-order or launch pricing may change.",
-    pageIds: ["steam-store-page"],
+    pageIds: ["fixed-steam-store-page-en-us"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "official",
@@ -159,7 +159,7 @@ export const faqItems: FAQItem[] = [
     question: "Does Anime Shop Simulator work on Linux or Steam Deck?",
     answer:
       "ProtonDB at `https://www.protondb.com/app/3393280` lists community-reported compatibility for Linux and Steam Deck. Specific ratings beyond what ProtonDB lists are not confirmed in ProtonDB as of 2026-09-09.",
-    pageIds: ["steam-store-page"],
+    pageIds: ["fixed-steam-store-page-en-us"],
     category: "platform",
     schemaEligible: true,
     sourceStatus: "official",
@@ -169,7 +169,7 @@ export const faqItems: FAQItem[] = [
     question: "Is the Steam community hub for Anime Shop Simulator active?",
     answer:
       "The hub exists at `https://steamcommunity.com/app/3393280` and links back to the store page and SteamDB. Use hub content for demand signals only, not as a hard fact source for the launch-day state.",
-    pageIds: ["steam-store-page"],
+    pageIds: ["fixed-steam-store-page-en-us"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "official",
@@ -181,7 +181,7 @@ export const faqItems: FAQItem[] = [
     question: "What is the core Anime Shop Simulator gameplay loop?",
     answer:
       "The core loop is open the shop, restock shelves, serve customers, close the day, and spend the day's revenue on upgrades or expansion. The upgrade step is what gives the loop its progression arc.",
-    pageIds: ["gameplay-overview"],
+    pageIds: ["fixed-gameplay-overview-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -191,7 +191,7 @@ export const faqItems: FAQItem[] = [
     question: "Who are the customers in Anime Shop Simulator?",
     answer:
       "Customers queue up at the counter to buy stock from the shelves. The queue is the visible pacing signal for the day. Exact per-customer satisfaction mechanics are not confirmed in Steam community or creator videos as of 2026-09-09.",
-    pageIds: ["gameplay-overview"],
+    pageIds: ["fixed-gameplay-overview-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -201,7 +201,7 @@ export const faqItems: FAQItem[] = [
     question: "How does inventory work in Anime Shop Simulator?",
     answer:
       "Inventory is organized into SKUs that you stock on the shelves. When a SKU sells out, you reorder it and restock the shelf. Variety matters because a single-SKU shop stalls the queue.",
-    pageIds: ["gameplay-overview"],
+    pageIds: ["fixed-gameplay-overview-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -211,7 +211,7 @@ export const faqItems: FAQItem[] = [
     question: "How does money flow in Anime Shop Simulator?",
     answer:
       "Money flows from sales revenue into the shop's bank, out again to suppliers when you restock, and into upgrades or expansion when you reinvest. Upgrades raise capacity or variety, which in turn raises the next day's revenue.",
-    pageIds: ["gameplay-overview"],
+    pageIds: ["fixed-gameplay-overview-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -221,7 +221,7 @@ export const faqItems: FAQItem[] = [
     question: "Do upgrades change the daily loop?",
     answer:
       "Yes. Upgrades raise shelf capacity, shop size, decoration, or customer flow, which makes the daily loop faster or more profitable and feeds back into the next round of upgrades.",
-    pageIds: ["gameplay-overview"],
+    pageIds: ["fixed-gameplay-overview-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -234,7 +234,7 @@ export const faqItems: FAQItem[] = [
       "What is the first thing to do in the anime shop simulator shop?",
     answer:
       "Open every shelf, restock only the empty SKUs in a small batch, and price stock at a modest markup above restock cost. The Steam store page for AppID 3393280 frames this restock-then-serve cycle as the core loop, and the upgrades and money guide explains how to reinvest the first day's profit.",
-    pageIds: ["shop-management"],
+    pageIds: ["fixed-shop-management-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -244,7 +244,7 @@ export const faqItems: FAQItem[] = [
     question: "How do I price items in the anime shop simulator shop?",
     answer:
       "Start at a modest markup, watch how fast each SKU moves, and adjust one price tier at a time. The goal is steady turnover rather than maximum margin, because empty shelves cost more than slightly lower prices. Specific per-SKU pricing math beyond community coverage is not confirmed in Steam community or creator videos as of 2026-09-09.",
-    pageIds: ["shop-management"],
+    pageIds: ["fixed-shop-management-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -255,7 +255,7 @@ export const faqItems: FAQItem[] = [
       "How does customer flow work in the anime shop simulator shop?",
     answer:
       "Customer flow is the queue that forms at the counter. The queue grows when shelves are empty, prices are too high, or the counter bottlenecks, and it shrinks when those upstream issues clear. The gameplay overview describes the same loop at the macro level.",
-    pageIds: ["shop-management"],
+    pageIds: ["fixed-shop-management-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -266,7 +266,7 @@ export const faqItems: FAQItem[] = [
       "Should I decorate or upgrade first in the anime shop simulator shop?",
     answer:
       "Upgrade first. The upgrades and money guide recommends reinvesting the day's profit in the cheapest shelf upgrade that unlocks a new SKU or shelf slot, then circling back to decoration once the core loop is profitable. Cosmetics do not move stock.",
-    pageIds: ["shop-management"],
+    pageIds: ["fixed-shop-management-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -277,7 +277,7 @@ export const faqItems: FAQItem[] = [
       "Where can I learn the basics before opening my first shop?",
     answer:
       "Read the beginner walkthrough for an onboarding checklist, then return to the upgrades and money guide once you have a day's revenue to reinvest.",
-    pageIds: ["shop-management"],
+    pageIds: ["fixed-shop-management-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -290,7 +290,7 @@ export const faqItems: FAQItem[] = [
       "What is the fastest way to earn money in the anime shop simulator upgrades ladder?",
     answer:
       "Serve customers every in-game day, keep shelves stocked, and reinvest the day's cash in the next rung of the ladder instead of saving. The shop management guide walks through the restock and pricing habits that maximize each day's revenue.",
-    pageIds: ["upgrades-money"],
+    pageIds: ["fixed-upgrades-money-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -301,7 +301,7 @@ export const faqItems: FAQItem[] = [
       "Which upgrade should I buy first in the anime shop simulator upgrades ladder?",
     answer:
       "Buy the cheapest shelf upgrade that unlocks a new SKU or shelf slot. Shelf upgrades directly grow revenue, while decoration does not, so the first cash should always go to a shelf rung rather than a cosmetic rung.",
-    pageIds: ["upgrades-money"],
+    pageIds: ["fixed-upgrades-money-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -312,7 +312,7 @@ export const faqItems: FAQItem[] = [
       "Are there hidden unlock thresholds in the anime shop simulator upgrades ladder?",
     answer:
       "Exact upgrade prices or hidden unlock thresholds beyond community coverage are not confirmed in Steam community or creator videos as of 2026-09-09. Treat the four-category order as guidance and re-check the Steam store page or SteamDB for any new upgrade tiers that appear after launch.",
-    pageIds: ["upgrades-money"],
+    pageIds: ["fixed-upgrades-money-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -323,7 +323,7 @@ export const faqItems: FAQItem[] = [
       "Do mods add new upgrades to the anime shop simulator upgrades ladder?",
     answer:
       "Mods are user-installed and are not part of the official Steam upgrade path. The official anime shop simulator upgrades ladder runs through the in-game upgrade menus on AppID 3393280; third-party mods sit outside that path and are not supported by the Steam store page or SteamDB.",
-    pageIds: ["upgrades-money"],
+    pageIds: ["fixed-upgrades-money-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -334,7 +334,7 @@ export const faqItems: FAQItem[] = [
       "Where can I learn the basics before unlocking my first anime shop simulator upgrades rung?",
     answer:
       "Start with the beginner walkthrough for an onboarding checklist, then read the gameplay overview for the macro shop-management loop. Return to this upgrades guide once you have a day's revenue to reinvest.",
-    pageIds: ["upgrades-money"],
+    pageIds: ["fixed-upgrades-money-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -346,7 +346,7 @@ export const faqItems: FAQItem[] = [
     question: "Is the anime shop simulator demo available right now?",
     answer:
       "Demo availability is set by the live Steam store page for AppID 3393280. This page does not claim the demo is open or closed beyond the 2026-09-09 snapshot; re-check the store page before recommending access to a reader.",
-    pageIds: ["demo-playtest"],
+    pageIds: ["fixed-demo-playtest-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -356,7 +356,7 @@ export const faqItems: FAQItem[] = [
     question: "How do I join the anime shop simulator playtest?",
     answer:
       "Playtest signup runs through the Steam store page for AppID 3393280. If the playtest badge is missing, no public signup is open, and closed playtests do not accept new registrations through any other path.",
-    pageIds: ["demo-playtest"],
+    pageIds: ["fixed-demo-playtest-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -366,7 +366,7 @@ export const faqItems: FAQItem[] = [
     question: "What does the anime shop simulator demo include?",
     answer:
       "Demo scope is described on the Steam store page. Demo content beyond what the Steam store page or SteamDB lists is not confirmed in Steam store or SteamDB as of 2026-09-09, so do not assume the demo covers any specific SKU, shelf, or upgrade tier.",
-    pageIds: ["demo-playtest"],
+    pageIds: ["fixed-demo-playtest-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -377,7 +377,7 @@ export const faqItems: FAQItem[] = [
       "Does the anime shop simulator demo carry progress over to the full game?",
     answer:
       "Save transfer is determined by the Steam store page and the developer. This page does not claim progress transfers, because demo content beyond what the Steam store page or SteamDB lists is not confirmed in Steam store or SteamDB as of 2026-09-09.",
-    pageIds: ["demo-playtest"],
+    pageIds: ["fixed-demo-playtest-en-us"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",
@@ -389,7 +389,7 @@ export const faqItems: FAQItem[] = [
     question: "Where do I start in the anime shop simulator walkthrough?",
     answer:
       "Start with the onboarding checklist above, then read the gameplay overview before opening the shop for the first time. The walkthrough hub is the entry point; the linked guides fill in the details.",
-    pageIds: ["beginner-walkthrough"],
+    pageIds: ["guides"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -399,7 +399,7 @@ export const faqItems: FAQItem[] = [
     question: "What is the core loop in the anime shop simulator walkthrough?",
     answer:
       "The core loop is restock empty shelves, serve customers, close the day, and reinvest the profit in the next rung of the upgrade ladder. The gameplay overview describes that loop at the macro level, and the shop management guide walks through the daily habits that keep it profitable.",
-    pageIds: ["beginner-walkthrough"],
+    pageIds: ["guides"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -410,7 +410,7 @@ export const faqItems: FAQItem[] = [
       "How long is the anime shop simulator walkthrough from first day to first upgrade?",
     answer:
       "Multi-day progression timelines beyond community coverage are not confirmed in Steam community as of 2026-09-09, so this page does not quote a specific day count. In general, expect the first rung of the upgrade ladder to fall within the first day if the onboarding checklist above is followed.",
-    pageIds: ["beginner-walkthrough"],
+    pageIds: ["guides"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -421,7 +421,7 @@ export const faqItems: FAQItem[] = [
       "Which guide should I read first in the anime shop simulator walkthrough?",
     answer:
       "The identity overview at `/about/` confirms you are on the right Steam AppID, and the release date page confirms the launch window. Read those two first, then move on to the gameplay overview and the shop management guide.",
-    pageIds: ["beginner-walkthrough"],
+    pageIds: ["guides"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -431,7 +431,7 @@ export const faqItems: FAQItem[] = [
     question: "Can I try the anime shop simulator demo before launch?",
     answer:
       "Demo and playtest availability is set by the live Steam store page for AppID 3393280. Visit the demo and playtest page for the current access status before recommending a demo path to a reader.",
-    pageIds: ["beginner-walkthrough"],
+    pageIds: ["guides"],
     category: "release",
     schemaEligible: true,
     sourceStatus: "official",

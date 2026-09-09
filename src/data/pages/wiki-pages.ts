@@ -9,7 +9,7 @@ export const wikiPages: PageContent[] = [
     locale: "en-US",
     routeKind: "fixed",
     slug: "wiki",
-    url: "/wiki/",
+    url: "/wiki",
     pageType: "wiki",
     presentation: { shell: "hub", variant: "card-grid" },
     h1: "Anime Shop Simulator ✨ Wiki",
