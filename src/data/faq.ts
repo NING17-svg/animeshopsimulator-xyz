@@ -158,9 +158,52 @@ export const faqItems: FAQItem[] = [
     id: "steam-deck",
     question: "Does Anime Shop Simulator work on Linux or Steam Deck?",
     answer:
-      "ProtonDB at `https://www.protondb.com/app/3393280` lists community-reported compatibility for Linux and Steam Deck. Specific ratings beyond what ProtonDB lists are not confirmed in ProtonDB as of 2026-09-09.",
+      "The Steam Deck / ProtonDB tier is not yet publicly confirmed at launch (2026-09-11). ProtonDB at `https://www.protondb.com/app/3393280` lists zero community reports on launch day, so no Platinum / Gold / Silver / Bronze tier can be cited yet. This page will be updated with the first reported tier after community sessions post results.",
     pageIds: ["fixed-steam-store-page-en-us"],
     category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "steam-developer",
+    question:
+      "Who is the developer and publisher of Anime Shop Simulator on Steam?",
+    answer:
+      "The Steam store page for AppID 3393280 credits One More Time as the developer and One More Time, Polnoch as the publisher. Treat that line as the canonical attribution; do not infer a different publisher from community coverage or pre-launch blog posts.",
+    pageIds: ["fixed-steam-store-page-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "steam-languages",
+    question:
+      "Which languages does Anime Shop Simulator support on Steam at launch?",
+    answer:
+      "The Steam store page lists 14 supported languages at launch: English, French, Italian, German, Czech, Japanese, Korean, Polish, Russian, Simplified Chinese, Turkish, Spanish — Spain, Portuguese — Brazil, and Portuguese — Portugal. Re-check the live store page for any post-launch additions.",
+    pageIds: ["fixed-steam-store-page-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "steam-min-specs",
+    question:
+      "What are the minimum PC system requirements for Anime Shop Simulator?",
+    answer:
+      "Minimum PC requirements per the Steam store page for AppID 3393280: Windows 10 64-bit, Intel Core i3 3.0 GHz or Ryzen 3xxx, 4 GB RAM, Nvidia GeForce GTX 960 with 4 GB VRAM, DirectX 11, and 3 GB available storage. Recommended specs are not listed on the store page at launch.",
+    pageIds: ["fixed-steam-store-page-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "steam-dlc-count",
+    question: "How many DLC does Anime Shop Simulator have at launch?",
+    answer:
+      "Two DLCs ship on launch day (2026-09-11) for AppID 3393280: the Supporter Pack and the Naughty Shelf Pack. Both are listed on the Steam DLC subpages and link back to the base store page.",
+    pageIds: ["fixed-steam-store-page-en-us", "fixed-dlc-editions-en-us"],
+    category: "site",
     schemaEligible: true,
     sourceStatus: "official",
   },
@@ -557,6 +600,63 @@ export const faqItems: FAQItem[] = [
     answer:
       "The Steam store description for AppID 3393280 and Steambase list trading card tournaments as a second event mechanic. A trading card tournament fills the back of the shop with collectors for a fixed window, draws steady foot traffic to the front counter, and unlocks card-pack inventory for the shop's shelves. Exact tournament scheduling rules beyond the store description are not confirmed in Steam community or creator videos as of 2026-09-09.",
     pageIds: ["fixed-shop-defense-checkout-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // DLC & editions FAQs (AppID 3393280, launch day 2026-09-11)
+  {
+    id: "dlc-how-many",
+    question:
+      "How many launch-day DLC does Anime Shop Simulator have on Steam?",
+    answer:
+      "Two DLCs ship on launch day (2026-09-11) for AppID 3393280: the Supporter Pack (Steam `Player Favorite` tag, framed as supporting One More Time's small team) and the Naughty Shelf Pack (3 new manga, 6 new dakimakura, a feet-focused main-menu camera angle, and a heroine stockings toggle). The full content list and launch-day pricing situation are on the [launch-day DLC guide](/dlc-editions/).",
+    pageIds: ["fixed-dlc-editions-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlc-supporter-pack",
+    question:
+      "What does the Anime Shop Simulator Supporter Pack add on launch day?",
+    answer:
+      "The Steam DLC subpage describes the Supporter Pack as: *\"If you enjoy Anime Shop Simulator and would like to support our small team and the development of future games, you can grab the Supporter Pack!\"* It carries the Steam `Player Favorite` tag. No specific items, manga, dakimakura, shop upgrades, or wardrobe toggles are listed in the official description.",
+    pageIds: ["fixed-dlc-editions-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlc-naughty-shelf-content",
+    question:
+      "What does the Anime Shop Simulator Naughty Shelf Pack add on launch day?",
+    answer:
+      "The Steam DLC subpage describes the Naughty Shelf Pack as: *\"A hidden shelf, a little extra spice, and something you won't find in an ordinary anime shop. Expand your collection with 3 cheeky new manga, 6 new dakimakura, a new feet-focused main menu camera angle, and the option to remove the heroine's stockings.\"* That is the only public item-count breakdown for any launch-day DLC.",
+    pageIds: ["fixed-dlc-editions-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlc-base-price",
+    question:
+      "What is the launch-day price of the Anime Shop Simulator base game on Steam?",
+    answer:
+      "This guide does not quote the launch-day base-game price from cached snippets, screenshots, or third-party coverage. Re-open the [Steam store page for AppID 3393280](/steam/) on launch day to confirm the live base-game price and any active launch discount before buying.",
+    pageIds: ["fixed-dlc-editions-en-us", "fixed-steam-store-page-en-us"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlc-hidden-shelf",
+    question:
+      "How do I unlock the hidden shelf from the Naughty Shelf Pack?",
+    answer:
+      "The Naughty Shelf Pack description mentions `a hidden shelf` but does not state whether it unlocks automatically when the DLC is owned, requires a specific in-game shop upgrade, or only appears after a story milestone. The unlock requirement is not confirmed at launch (2026-09-11) and will be updated once the developer or community confirms it.",
+    pageIds: ["fixed-dlc-editions-en-us"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",

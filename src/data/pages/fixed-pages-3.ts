@@ -7,6 +7,11 @@ const SOURCES_TECH_IN_BENGALI =
   "https://en.techinbengali.com/anime-shop-simulator-co-op-management-game/";
 const SOURCES_GEEKREALMHUB =
   "https://geekrealmhub.com/anime-shop-simulator-build-your-dream-otaku-store";
+const SOURCES_DLC_HUB = "https://store.steampowered.com/dlc/3393280/Anime_Shop_Simulator/";
+const SOURCES_SUPPORTER_PACK =
+  "https://store.steampowered.com/app/5175820/Anime_Shop_Simulator_Supporter_Pack/";
+const SOURCES_NAUGHTY_SHELF_PACK =
+  "https://store.steampowered.com/app/5175830/Naughty_Shelf_Pack/";
 const SOURCES_BRIEF =
   "game-intelligence/handoffs/game-check/build-now/anime-shop-simulator.md";
 
@@ -310,5 +315,190 @@ export const fixedPagesMore: PageContent[] = [
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
     lastReviewed: "2026-09-09",
+  },
+
+  // 11. DLC, editions, and pre-order pricing for AppID 3393280 (launch-day guide)
+  {
+    id: "fixed-dlc-editions-en-us",
+    translationKey: "dlc-editions",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "dlc-editions",
+    url: "/dlc-editions",
+    pageType: "guides",
+    presentation: { shell: "content", variant: "reading-right-rail" },
+    h1: "Anime Shop Simulator DLC & Editions — Supporter Pack, Naughty Shelf Pack, Launch-Day Pricing",
+    seoTitle:
+      "Anime Shop Simulator DLC & Editions — Supporter Pack & Naughty Shelf Pack",
+    metaDescription:
+      "Launch-day DLC and edition guide for Anime Shop Simulator (Steam AppID 3393280): the Supporter Pack, the Naughty Shelf Pack (3 manga, 6 dakimakura, feet-focused camera, stockings toggle), base-game pricing, and hidden-shelf unlock uncertainty.",
+    summary:
+      "Two DLCs ship alongside the base game on launch day (2026-09-11) for AppID 3393280: the **Supporter Pack** (Steam `Player Favorite` tag, framed as supporting One More Time's small team) and the **Naughty Shelf Pack** (3 new manga, 6 new dakimakura, a feet-focused main-menu camera angle, and the option to remove the heroine's stockings). Base-game and DLC prices were not posted on the live Steam DLC subpages at launch; re-check the store page before buying. Whether the Naughty Shelf Pack's hidden shelf unlocks automatically or requires a shop upgrade is not confirmed at launch.",
+    hero: {
+      eyebrow: "Launch-day DLC & editions",
+      subtitle:
+        "Supporter Pack vs. Naughty Shelf Pack for AppID 3393280: verbatim Steam descriptions, what each adds, launch-day pricing situation, and hidden-shelf unlock uncertainty.",
+      ctas: [
+        { label: "Steam Store Page", href: "/steam/" },
+        { label: "Release Date", href: "/release/" },
+        { label: "Identity Overview", href: "/about/" },
+      ],
+    },
+    quickAnswer:
+      "Two DLCs ship on launch day (2026-09-11) for AppID 3393280. The **Supporter Pack** is tagged `Player Favorite` on Steam and is described as supporting One More Time's small team and future games. The **Naughty Shelf Pack** adds 3 new manga, 6 new dakimakura, a new feet-focused main-menu camera angle, and an option to remove the heroine's stockings. Base-game and DLC prices were not posted on the Steam DLC subpages at launch — re-check the live store page before buying. Whether the Naughty Shelf Pack's hidden shelf unlocks automatically or requires a shop upgrade is not confirmed at launch.",
+    keyFacts: [
+      { label: "Launch day", value: "2026-09-11" },
+      { label: "DLC count at launch", value: "2 (Supporter Pack, Naughty Shelf Pack)" },
+      { label: "Supporter Pack price", value: "Re-check Steam DLC page (not posted at launch)" },
+      { label: "Naughty Shelf Pack price", value: "Re-check Steam DLC page (not posted at launch)" },
+      { label: "Base-game price", value: "Re-check Steam store page (not quoted from cached snippets)" },
+      { label: "Naughty Shelf content", value: "3 manga · 6 dakimakura · feet camera · stockings toggle" },
+      { label: "Hidden-shelf unlock", value: "Not confirmed at launch" },
+    ],
+    modules: [
+      {
+        id: "dlc-overview",
+        type: "data-table",
+        heading: "Launch-day DLC snapshot (2026-09-11)",
+        columns: [
+          { key: "field", label: "Field" },
+          { key: "value", label: "Value" },
+        ],
+        rows: [
+          { field: "Steam AppID", value: "3393280" },
+          { field: "Launch day", value: "2026-09-11" },
+          { field: "DLC #1", value: "Anime Shop Simulator: Supporter Pack (Steam `Player Favorite` tag)" },
+          { field: "DLC #2", value: "Naughty Shelf Pack" },
+          { field: "DLC pricing on launch", value: "Not posted on the Steam DLC subpages at launch" },
+          { field: "Base-game price on launch", value: "Re-check the live Steam store page" },
+        ],
+      },
+      {
+        id: "dlc-supporter-pack",
+        type: "prose",
+        heading:
+          "Supporter Pack — verbatim Steam description and what it adds",
+        body:
+          "The Steam DLC subpage describes the Supporter Pack as: *\"If you enjoy Anime Shop Simulator and would like to support our small team and the development of future games, you can grab the Supporter Pack!\"* Steam tags this DLC `Player Favorite`, which is the only public rationale on the launch-day store page. Treat the Supporter Pack as a funding bundle, not a content pack: no item, manga, dakimakura, or shop upgrade is listed in the official description. The DLC page lives at `https://store.steampowered.com/app/5175820/Anime_Shop_Simulator_Supporter_Pack/` and links back to the [base Steam store page](/steam/).",
+      },
+      {
+        id: "dlc-naughty-shelf",
+        type: "prose",
+        heading:
+          "Naughty Shelf Pack — verbatim Steam description and full content list",
+        body:
+          "The Steam DLC subpage describes the Naughty Shelf Pack as: *\"A hidden shelf, a little extra spice, and something you won't find in an ordinary anime shop. Expand your collection with 3 cheeky new manga, 6 new dakimakura, a new feet-focused main menu camera angle, and the option to remove the heroine's stockings.\"* The named content list is:\n\n- 3 new manga volumes (described as `cheeky` on the store page).\n- 6 new dakimakura covers.\n- 1 new feet-focused main-menu camera angle.\n- 1 toggle that removes the heroine's stockings.\n\nThe DLC page lives at `https://store.steampowered.com/app/5175830/Naughty_Shelf_Pack/` and links back to the [base Steam store page](/steam/). This is the only DLC on launch day with a public item-count breakdown.",
+      },
+      {
+        id: "dlc-base-game-price",
+        type: "prose",
+        heading: "Base-game launch-day pricing situation",
+        body:
+          "On launch day (2026-09-11) the Steam store page for AppID 3393280 is the only authoritative source for the base-game price. This guide does not quote a launch-day base-game price from cached snippets, screenshots, or third-party coverage — re-open the live store page before checkout to see the current price and any active launch discount. If you see a base-game price anywhere outside the live Steam store page, treat it as unverified until the store page itself shows the same number.",
+      },
+      {
+        id: "dlc-dlc-prices",
+        type: "prose",
+        heading: "DLC pricing situation at launch",
+        body:
+          "The Steam DLC subpages for both launch-day DLCs (Supporter Pack, Naughty Shelf Pack) were visible on launch day (2026-09-11) but did not display a posted price in the public listing. Treat DLC pricing as pending and re-check each DLC's individual subpage before buying:\n\n- [Supporter Pack subpage](https://store.steampowered.com/app/5175820/Anime_Shop_Simulator_Supporter_Pack/)\n- [Naughty Shelf Pack subpage](https://store.steampowered.com/app/5175830/Naughty_Shelf_Pack/)\n\nIf a price appears in a third-party blog post or community thread before it shows on the live Steam subpage, assume it is unverified.",
+      },
+      {
+        id: "dlc-hidden-shelf-uncertainty",
+        type: "callout",
+        tone: "unknown",
+        title: "Hidden-shelf unlock requirements — not confirmed at launch",
+        body:
+          "The Naughty Shelf Pack description mentions `a hidden shelf`, but does not state whether the shelf unlocks automatically when the DLC is owned, requires a specific in-game shop upgrade, or only appears after a story milestone. This page will be updated once the developer or community confirms the unlock condition. Do not assume the hidden shelf is guaranteed to be visible from minute one of the first launch-day session.",
+      },
+      {
+        id: "dlc-difference",
+        type: "comparison",
+        heading: "Supporter Pack vs. Naughty Shelf Pack — quick comparison",
+        options: [
+          {
+            name: "Supporter Pack",
+            summary:
+              "Funds One More Time's small team. No item count, no manga, no dakimakura, no camera or toggle listed in the official description.",
+            bestFor:
+              "Players who want to support the developer and do not need launch-day content.",
+          },
+          {
+            name: "Naughty Shelf Pack",
+            summary:
+              "3 manga, 6 dakimakura, a feet-focused main-menu camera angle, and a heroine stockings toggle. Only launch-day DLC with a public item count.",
+            bestFor:
+              "Players who want the launch-day manga / dakimakura / camera / wardrobe additions and accept that the hidden-shelf unlock rule is not confirmed.",
+          },
+        ],
+      },
+      {
+        id: "dlc-buying-checklist",
+        type: "steps",
+        heading: "Launch-day buying checklist",
+        items: [
+          {
+            title: "Step 1",
+            body:
+              "Re-open the [base-game Steam store page](/steam/) for AppID 3393280 and confirm the current base-game price before adding anything to the cart.",
+            doneCondition:
+              "Live store page shows a base-game price that matches the number in your checkout screen.",
+          },
+          {
+            title: "Step 2",
+            body:
+              "If you want the Supporter Pack, open its subpage and confirm the price is now posted. If it still shows no price, wait — do not commit a screenshot price from any other source.",
+            doneCondition:
+              "Supporter Pack subpage displays a price you have written down.",
+          },
+          {
+            title: "Step 3",
+            body:
+              "If you want the Naughty Shelf Pack, open its subpage, confirm the price, and double-check the `3 manga / 6 dakimakura / feet camera / stockings toggle` list still matches the live description.",
+            doneCondition:
+              "Naughty Shelf Pack subpage displays a price and the four named items still appear in the description.",
+          },
+          {
+            title: "Step 4",
+            body:
+              "Buy the base game first, then add the DLC in the same cart. If the hidden shelf does not appear in your shop after installing the Naughty Shelf Pack, re-check the launch-day patch notes and this page before reporting it as a bug.",
+            doneCondition:
+              "Base game and chosen DLC both appear as owned in your Steam library.",
+          },
+        ],
+      },
+      {
+        id: "dlc-not-confirmed",
+        type: "callout",
+        tone: "unknown",
+        title: "What is and is not confirmed at launch (2026-09-11)",
+        body:
+          "Hidden-shelf unlock requirement for the Naughty Shelf Pack: not confirmed at launch.\nWhether the Supporter Pack or Naughty Shelf Pack require the base game to be owned: re-check each DLC subpage before purchase.\nBase-game launch-day price on Steam: re-check the live store page; not quoted here from cached snippets.\nDLC prices on the Steam DLC subpages: re-check each DLC subpage; not quoted here from cached snippets.",
+      },
+      {
+        id: "dlc-sources",
+        type: "prose",
+        heading: "Sources",
+        body:
+          `- [Anime Shop Simulator ✨ Steam store page (AppID 3393280)](${SOURCES_STEAM}) — \`official/store\` — checked \`2026-09-11\` — confirms launch day 2026-09-11, developer / publisher, and DLC list for AppID 3393280.\n- [Anime Shop Simulator ✨ Steam DLC subpages (AppID 3393280)](${SOURCES_DLC_HUB}) — \`official/store\` — checked \`2026-09-11\` — confirms two launch-day DLCs and their verbatim descriptions.\n- [Anime Shop Simulator ✨ Supporter Pack DLC subpage](${SOURCES_SUPPORTER_PACK}) — \`official/store\` — checked \`2026-09-11\` — verbatim Supporter Pack description.\n- [Anime Shop Simulator ✨ Naughty Shelf Pack DLC subpage](${SOURCES_NAUGHTY_SHELF_PACK}) — \`official/store\` — checked \`2026-09-11\` — verbatim Naughty Shelf Pack description (3 manga, 6 dakimakura, feet camera, stockings toggle).\n- [Anime Shop Simulator ✨ Steam community hub (AppID 3393280)](${SOURCES_HUB}) — \`community/video\` — checked \`2026-09-11\` — supports the \`Player Favorite\` tag context for the Supporter Pack.`,
+      },
+    ],
+    faqIds: [
+      "dlc-how-many",
+      "dlc-supporter-pack",
+      "dlc-naughty-shelf-content",
+      "dlc-base-price",
+      "dlc-hidden-shelf",
+    ],
+    relatedPageIds: [
+      "fixed-steam-store-page-en-us",
+      "fixed-identity-overview-en-us",
+      "fixed-release-date-en-us",
+      "fixed-gameplay-overview-en-us",
+      "guides",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-11",
   },
 ];

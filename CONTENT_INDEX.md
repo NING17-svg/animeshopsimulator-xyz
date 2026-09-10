@@ -23,6 +23,7 @@ hreflang, sitemap, and route-manifest validation.
 | `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
 | `/co-op-multiplayer-setup` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator co-op multiplayer setup | Invite up to 4 players and split Cashier / Stocker / Decorator / Gambler roles | Shop Guide / Gameplay Overview / Walkthrough | Supporting hub | Co-op setup, Family Sharing, Steam Achievements. |
 | `/shop-defense-and-checkout` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator shop defense, checkout, and events | Defend against thieves, run 18+ manga scans, host autograph signings and card tournaments | Shop Guide / Gameplay Overview / Co-Op Setup | Supporting hub | Trusty bat, ID checks, body scanners, autograph signings, card tournaments. |
+| `/dlc-editions` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator DLC and editions on launch day | Decide between the Supporter Pack and the Naughty Shelf Pack on launch day (2026-09-11) | Steam Store Page / Release Date / Identity Overview | Supporting hub | Verbatim Steam DLC descriptions, content list (3 manga, 6 dakimakura, feet camera, stockings toggle), launch-day pricing situation, hidden-shelf unlock uncertainty. |
 
 ## Generated Route Families
 
@@ -33,7 +34,7 @@ hreflang, sitemap, and route-manifest validation.
 
 ## Content Clusters
 
-- Launch facts: `/release-date`, `/faq`
+- Launch facts: `/release-date`, `/steam`, `/dlc-editions`, `/faq`
 - Official facts and safe guide structure: `/wiki`, `/guides`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 

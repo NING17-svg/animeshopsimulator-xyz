@@ -96,9 +96,9 @@ export const fixedPages: PageContent[] = [
         id: "identity-not-announced",
         type: "callout",
         tone: "unknown",
-        title: "What is and is not announced as of 2026-09-09",
+        title: "What is and is not announced at launch (2026-09-11)",
         body:
-          "Console ports: Not announced as of 2026-09-09.\nConsole exclusivity: Not announced as of 2026-09-09.\nMicrotransactions: Not announced as of 2026-09-09.\n\nMultiplayer modes are listed on the Steam store page for AppID 3393280 as Online Co-op and Online PvP, and the co-op setup is covered on the [co-op multiplayer setup guide](/co-op-multiplayer-setup/).",
+          "Console ports: Not announced at launch (2026-09-11).\nConsole exclusivity: Not announced at launch (2026-09-11).\nMicrotransactions: Not announced at launch (2026-09-11).\n\nMultiplayer modes are listed on the Steam store page for AppID 3393280 as Online Co-op and Online PvP, and the co-op setup is covered on the [co-op multiplayer setup guide](/co-op-multiplayer-setup/). Launch-day DLCs (Supporter Pack, Naughty Shelf Pack) are covered on the [launch-day DLC guide](/dlc-editions/).",
       },
       {
         id: "identity-sources",
@@ -207,9 +207,9 @@ export const fixedPages: PageContent[] = [
         id: "release-not-announced",
         type: "callout",
         tone: "unknown",
-        title: "What is and is not announced as of 2026-09-09",
+        title: "What is and is not announced at launch (2026-09-11)",
         body:
-          "Exact launch-hour times per region: Not announced as of 2026-09-09.\nConsole release dates: Not announced as of 2026-09-09.\nFull edition breakdown: Not announced as of 2026-09-09.",
+          "Exact launch-hour times per region: Not announced as of 2026-09-11.\nConsole release dates: Not announced as of 2026-09-11.\nFull edition breakdown: see the [launch-day DLC guide](/dlc-editions/) for the two launch-day DLCs (Supporter Pack, Naughty Shelf Pack).",
       },
       {
         id: "release-sources",
@@ -246,30 +246,36 @@ export const fixedPages: PageContent[] = [
     url: "/steam",
     pageType: "release",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: "Anime Shop Simulator Steam — Store, SteamDB, and Community Hub",
-    seoTitle: "Anime Shop Simulator Steam — Store, SteamDB, and Hub",
+    h1: "Anime Shop Simulator Steam — Store, Publisher, Languages, Specs, and Deck",
+    seoTitle: "Anime Shop Simulator Steam — Store, Publisher, Languages, Specs, and Deck",
     metaDescription:
-      "Find the Anime Shop Simulator Steam store page, SteamDB listing, community hub, and ProtonDB entry for AppID 3393280. Pricing and platform snapshot inside.",
+      "Anime Shop Simulator Steam (AppID 3393280): developer / publisher One More Time · Polnoch, full 14-language list, minimum PC system requirements, ProtonDB status, and first-day patch watch.",
     summary:
-      "The official Anime Shop Simulator Steam store page lives at `https://store.steampowered.com/app/3393280` for AppID 3393280. SteamDB lists the same AppID, the Steam community hub sits at the corresponding URL, and ProtonDB covers Linux and Steam Deck compatibility. Pricing and supported platforms are snapshots as of 2026-09-09.",
+      "The official Steam store page for AppID 3393280 names One More Time as the developer and One More Time, Polnoch as the publisher, lists 14 supported languages, and confirms Windows 10 64-bit minimum specs (Intel Core i3 3.0 GHz / Ryzen 3xxx, 4 GB RAM, GTX 960 4 GB, 3 GB storage). ProtonDB has zero community reports at launch, so the Steam Deck tier is not yet publicly confirmed and will be refreshed after the first session reports land. DLC editions (Supporter Pack, Naughty Shelf Pack) are covered on the [launch-day DLC guide](/dlc-editions/).",
     hero: {
       eyebrow: "Canonical Steam links",
       subtitle:
-        "Official Steam store page, SteamDB listing, community hub, and ProtonDB entry for AppID 3393280. Pricing and supported-platform snapshot inside.",
+        "Developer / publisher attribution, full 14-language list, minimum PC specs, ProtonDB status, and the first-day patch watch for AppID 3393280.",
       ctas: [
+        { label: "Launch-day DLC Guide", href: "/dlc-editions/" },
         { label: "Release Date", href: "/release/" },
         { label: "Identity Overview", href: "/about/" },
-        { label: "Gameplay Overview", href: "/gameplay/" },
       ],
     },
     quickAnswer:
-      "The official Anime Shop Simulator Steam store page lives at `https://store.steampowered.com/app/3393280` for AppID 3393280. SteamDB lists the same AppID at `https://steamdb.info/app/3393280/`, and the Steam community hub sits at `https://steamcommunity.com/app/3393280`. ProtonDB covers Linux and Steam Deck compatibility at `https://www.protondb.com/app/3393280`. Pricing and supported platforms are snapshots as of 2026-09-09.",
+      "The official Steam store page for AppID 3393280 is at `https://store.steampowered.com/app/3393280`. The developer is One More Time and the publisher is One More Time, Polnoch. The page lists 14 supported languages (English, French, Italian, German, Czech, Japanese, Korean, Polish, Russian, Simplified Chinese, Turkish, Spanish — Spain, Portuguese — Brazil, Portuguese — Portugal) and minimum specs of Windows 10 64-bit, Intel Core i3 3.0 GHz / Ryzen 3xxx, 4 GB RAM, GTX 960 4 GB VRAM, DirectX 11, and 3 GB storage. ProtonDB has zero community reports for AppID 3393280 at launch, so the Steam Deck tier is not yet publicly confirmed and will be updated after the first reports come in.",
     keyFacts: [
       { label: "Steam AppID", value: "3393280" },
-      { label: "Store URL", value: "store.steampowered.com/app/3393280" },
-      { label: "SteamDB URL", value: "steamdb.info/app/3393280/" },
-      { label: "Community hub URL", value: "steamcommunity.com/app/3393280" },
-      { label: "ProtonDB URL", value: "protondb.com/app/3393280" },
+      { label: "Developer", value: "One More Time" },
+      { label: "Publisher", value: "One More Time, Polnoch" },
+      { label: "Supported languages", value: "14 (see module)" },
+      { label: "Min OS", value: "Windows 10 64-bit" },
+      { label: "Min CPU", value: "Intel Core i3 3.0 GHz / Ryzen 3xxx" },
+      { label: "Min RAM", value: "4 GB" },
+      { label: "Min GPU", value: "GeForce GTX 960 4 GB VRAM" },
+      { label: "Storage", value: "3 GB available" },
+      { label: "ProtonDB reports", value: "0 at launch (2026-09-11)" },
+      { label: "Steam Deck tier", value: "Pending — not publicly confirmed at launch" },
     ],
     modules: [
       {
@@ -278,16 +284,67 @@ export const fixedPages: PageContent[] = [
         heading: "Steam store page summary",
         columns: [
           { key: "field", label: "Field" },
-          { key: "value", label: "Value (snapshot 2026-09-09)" },
+          { key: "value", label: "Value (snapshot 2026-09-11)" },
         ],
         rows: [
           { field: "Store URL", value: SOURCES_STEAM },
           { field: "Steam AppID", value: "3393280" },
+          { field: "Developer", value: "One More Time" },
+          { field: "Publisher", value: "One More Time, Polnoch" },
           {
             field: "What it shows",
             value:
-              "Title, store description, screenshots, supported platforms, release date, pricing, demo / playtest status",
+              "Title, store description, screenshots, supported platforms, release date, pricing, demo / playtest status, language list, system requirements, DLC",
           },
+        ],
+      },
+      {
+        id: "steam-publisher",
+        type: "prose",
+        heading: "Developer and publisher on the Steam store page",
+        body:
+          "The Steam store page for AppID 3393280 credits **One More Time** as the developer and **One More Time, Polnoch** as the publisher. Treat that line as the canonical attribution: do not infer a different publisher from community coverage, store tags, or earlier blog posts that have not been republished on the live store page.",
+      },
+      {
+        id: "steam-languages",
+        type: "data-table",
+        heading: "Supported languages (full launch-day list)",
+        columns: [
+          { key: "language", label: "Language" },
+          { key: "tag", label: "Steam tag" },
+        ],
+        rows: [
+          { language: "English", tag: "English" },
+          { language: "French", tag: "Français" },
+          { language: "Italian", tag: "Italiano" },
+          { language: "German", tag: "Deutsch" },
+          { language: "Czech", tag: "Čeština" },
+          { language: "Japanese", tag: "日本語" },
+          { language: "Korean", tag: "한국어" },
+          { language: "Polish", tag: "Polski" },
+          { language: "Russian", tag: "Русский" },
+          { language: "Simplified Chinese", tag: "简体中文" },
+          { language: "Turkish", tag: "Türkçe" },
+          { language: "Spanish (Spain)", tag: "Español — España" },
+          { language: "Portuguese (Brazil)", tag: "Português — Brasil" },
+          { language: "Portuguese (Portugal)", tag: "Português — Portugal" },
+        ],
+      },
+      {
+        id: "steam-system-reqs",
+        type: "data-table",
+        heading: "Minimum PC system requirements (per Steam store page)",
+        columns: [
+          { key: "field", label: "Field" },
+          { key: "value", label: "Minimum" },
+        ],
+        rows: [
+          { field: "OS", value: "Windows 10 (64-bit)" },
+          { field: "Processor", value: "Intel Core i3 3.0 GHz or Ryzen 3xxx" },
+          { field: "Memory", value: "4 GB RAM" },
+          { field: "Graphics", value: "Nvidia GeForce GTX 960 with 4 GB VRAM" },
+          { field: "DirectX", value: "Version 11" },
+          { field: "Storage", value: "3 GB available space" },
         ],
       },
       {
@@ -307,35 +364,69 @@ export const fixedPages: PageContent[] = [
       {
         id: "steam-protondb",
         type: "prose",
-        heading: "ProtonDB summary (Linux / Steam Deck compatibility)",
+        heading:
+          "ProtonDB summary (Linux / Steam Deck compatibility — pending at launch)",
         body:
-          "ProtonDB at `https://www.protondb.com/app/3393280` tracks community-reported Linux and Steam Deck compatibility. As of the 2026-09-09 snapshot the ProtonDB entry for AppID 3393280 is the only Linux / Steam Deck compatibility signal. Specific Linux / Steam Deck compatibility ratings beyond what ProtonDB lists are not confirmed in ProtonDB as of 2026-09-09.",
+          "ProtonDB at `https://www.protondb.com/app/3393280` is the Linux / Steam Deck compatibility tracker for AppID 3393280. As of launch day (2026-09-11) the page lists zero community reports, so no ProtonDB tier (Platinum / Gold / Silver / Bronze / Borked) can be cited yet. This page will be updated with the first reported tier after community sessions post results; do not infer a tier from emulator guides, Reddit threads, or pre-launch blog posts until ProtonDB shows at least one confirmed report.",
+      },
+      {
+        id: "steam-deck-reality",
+        type: "callout",
+        tone: "unknown",
+        title: "Steam Deck reality at launch",
+        body:
+          "Steam Deck / ProtonDB tier: not publicly confirmed at launch (2026-09-11). ProtonDB has zero reports for AppID 3393280 on launch day. Treat any 'Deck verified' or 'Deck playable' badge that appears elsewhere as unconfirmed until Valve officially applies it or ProtonDB lists a matching tier.",
+      },
+      {
+        id: "steam-first-day-patch",
+        type: "callout",
+        tone: "caution",
+        title: "First-day patch watch",
+        body:
+          "Launch-day Steam titles routinely ship with a day-one patch (build ID bump on SteamDB, language or default-control tweaks, crash fixes for specific GPUs). If the game launches but a feature is missing, broken, or different from what the store description promised, do not assume the description is wrong — wait for the patch notes, check SteamDB for a build ID change, then re-confirm against this page before reporting a regression.",
       },
       {
         id: "steam-pricing",
         type: "prose",
         heading: "Pricing summary as listed on the store page",
         body:
-          "Pricing is listed on the Steam store page for AppID 3393280. As of the 2026-09-09 snapshot the title is in a pre-launch state, and any pre-order pricing or launch pricing should be re-checked on the live store page on publication day. Do not quote a price from memory or from a cached snippet when the store page itself is the source.",
+          "Pricing is listed on the Steam store page for AppID 3393280. As of the launch-day snapshot (2026-09-11) the base game and the two launch-day DLCs (Supporter Pack, Naughty Shelf Pack) were both listed without a public price on the Steam DLC subpages, and the base-game price on the store page should be re-checked live before buying. Do not quote a price from memory, a cached snippet, or a screenshot when the store page itself is the source. The launch-day DLC breakdown — including what each DLC adds — is on the [launch-day DLC guide](/dlc-editions/).",
+      },
+      {
+        id: "steam-dlc-link",
+        type: "prose",
+        heading: "Launch-day DLC and editions",
+        body:
+          "Two DLCs ship on launch day (2026-09-11) for AppID 3393280: the **Supporter Pack** (Steam `Player Favorite` tag, described as supporting One More Time's small team) and the **Naughty Shelf Pack** (3 manga, 6 dakimakura, a feet-focused main-menu camera angle, and a heroine stockings toggle). Full verbatim DLC descriptions, the base-game launch-day price situation, and the hidden-shelf unlock uncertainty are covered on the [launch-day DLC guide](/dlc-editions/).",
       },
       {
         id: "steam-not-confirmed",
         type: "callout",
         tone: "unknown",
-        title: "What is and is not confirmed as of 2026-09-09",
+        title: "What is and is not confirmed at launch (2026-09-11)",
         body:
-          "Specific Linux / Steam Deck compatibility ratings beyond what ProtonDB lists: Not confirmed in ProtonDB as of 2026-09-09.",
+          "Steam Deck / ProtonDB tier: not publicly confirmed — ProtonDB has zero reports for AppID 3393280.\nRecommended system specs: not listed on the Steam store page at launch.\nBase-game launch-day price on Steam: re-check the live store page; not quoted here from cached snippets.\nDLC prices for the Supporter Pack and Naughty Shelf Pack: re-check the live DLC subpages.",
       },
       {
         id: "steam-sources",
         type: "prose",
         heading: "Sources",
         body:
-          `- [Anime Shop Simulator ✨ Steam store page (AppID 3393280)](${SOURCES_STEAM}) — \`official/store\` — checked \`2026-09-09\` — confirms AppID 3393280, pricing snapshot, and supported platforms.\n- [Anime Shop Simulator ✨ SteamDB listing (AppID 3393280)](${SOURCES_STEAMDB}) — \`official/store\` — checked \`2026-09-09\` — confirms AppID 3393280 and historical store metadata.\n- [Anime Shop Simulator ✨ Steam community hub (AppID 3393280)](${SOURCES_HUB}) — \`community/video\` — checked \`2026-09-09\` — confirms the hub exists and links back to the store page and SteamDB.\n- [Anime Shop Simulator ✨ ProtonDB listing (AppID 3393280)](${SOURCES_PROTONDB}) — \`reference\` — checked \`2026-09-09\` — confirms Linux / Steam Deck compatibility entry exists for AppID 3393280.\n- [Google en-US autocomplete snapshot for \`anime shop simulator steam\`](${SOURCES_AUTOCOMPLETE}) — \`discovery-only\` — checked \`2026-09-09\` — confirms pre-launch Steam and SteamDB demand signals.`,
+          `- [Anime Shop Simulator ✨ Steam store page (AppID 3393280)](${SOURCES_STEAM}) — \`official/store\` — checked \`2026-09-11\` — confirms developer / publisher, 14-language list, minimum PC system requirements, DLC list.\n- [Anime Shop Simulator ✨ Steam DLC listing (AppID 3393280)](https://store.steampowered.com/dlc/3393280/Anime_Shop_Simulator/) — \`official/store\` — checked \`2026-09-11\` — confirms the two launch-day DLCs and their verbatim descriptions.\n- [Anime Shop Simulator ✨ SteamDB listing (AppID 3393280)](${SOURCES_STEAMDB}) — \`official/store\` — checked \`2026-09-11\` — confirms AppID 3393280, build IDs, and historical store metadata.\n- [Anime Shop Simulator ✨ Steam community hub (AppID 3393280)](${SOURCES_HUB}) — \`community/video\` — checked \`2026-09-11\` — confirms the hub exists and links back to the store page and SteamDB.\n- [Anime Shop Simulator ✨ ProtonDB listing (AppID 3393280)](${SOURCES_PROTONDB}) — \`reference\` — checked \`2026-09-11\` — confirms zero community reports at launch and no ProtonDB tier.`,
       },
     ],
-    faqIds: ["steam-appid", "steam-pricing", "steam-deck", "steam-hub-active"],
+    faqIds: [
+      "steam-appid",
+      "steam-developer",
+      "steam-languages",
+      "steam-min-specs",
+      "steam-pricing",
+      "steam-deck",
+      "steam-dlc-count",
+      "steam-hub-active",
+    ],
     relatedPageIds: [
+      "fixed-dlc-editions-en-us",
       "fixed-identity-overview-en-us",
       "fixed-release-date-en-us",
       "fixed-gameplay-overview-en-us",
@@ -343,7 +434,7 @@ export const fixedPages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-11",
   },
 
   // 4. Gameplay overview (explanation)

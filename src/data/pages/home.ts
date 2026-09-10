@@ -88,8 +88,14 @@ export const homePage: PageContent = {
         {
           title: "Steam store page",
           summary:
-            "Links to the Steam store, SteamDB, community hub, and ProtonDB for AppID 3393280.",
+            "Developer / publisher, full 14-language list, minimum PC specs, ProtonDB status, and first-day patch watch for AppID 3393280.",
           href: "/steam/",
+        },
+        {
+          title: "Launch-day DLC & editions",
+          summary:
+            "Supporter Pack vs. Naughty Shelf Pack: verbatim Steam descriptions, what each DLC adds, launch-day pricing, and hidden-shelf unlock uncertainty.",
+          href: "/dlc-editions/",
         },
         {
           title: "Gameplay overview",
@@ -148,6 +154,7 @@ export const homePage: PageContent = {
     "fixed-identity-overview-en-us",
     "fixed-release-date-en-us",
     "fixed-steam-store-page-en-us",
+    "fixed-dlc-editions-en-us",
     "fixed-gameplay-overview-en-us",
     "fixed-shop-management-en-us",
     "fixed-upgrades-money-en-us",
@@ -158,5 +165,5 @@ export const homePage: PageContent = {
   ],
   schemaTypes: ["WebSite", "CollectionPage", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-09-09",
+  lastReviewed: "2026-09-11",
 };

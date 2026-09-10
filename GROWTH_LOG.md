@@ -41,4 +41,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Content changed: `/about/` callout no longer claims multiplayer is unannounced; it now points readers at the new co-op guide.
 - Verification: `npm run verify` is required before pushing.
 
+### 2026-09-11 - Launch-day DLC & editions guide and Steam page system-reality update
+
+- Task: Close the launch-day gap on AppID 3393280 between the Steam store page and the site by adding a dedicated DLC & editions guide, expanding `/steam/` with developer / publisher, 14-language list, minimum PC specs, ProtonDB status, and a first-day patch watch, and adding FAQs for both topics.
+- Files changed: `src/data/pages/fixed-pages.ts` (`/steam/`, `/about/`, and `/release/` callouts), `src/data/pages/fixed-pages-3.ts` (new `/dlc-editions/` page and three new DLC source constants), `src/data/pages/home.ts` (page-map entry and related links), `src/data/pages/wiki-pages.ts` (wiki hub listing), `src/data/faq.ts` (9 new FAQ entries plus update to the existing `steam-deck` entry), and `CONTENT_INDEX.md` (new page row).
+- URLs affected: `/dlc-editions` (new), `/steam/` (expanded with publisher, languages, system specs, ProtonDB status, first-day patch watch, DLC link), `/about/` and `/release/` callouts updated to point at the new DLC guide.
+- SEO/GEO changed: New Article/BreadcrumbList/FAQPage page indexes the verbatim Supporter Pack description, the verbatim Naughty Shelf Pack description (3 manga, 6 dakimakura, feet-focused main-menu camera angle, heroine stockings toggle), the launch-day pricing situation, and the hidden-shelf unlock uncertainty. `/steam/` now indexes One More Time (developer) / One More Time, Polnoch (publisher), the full 14-language list, the minimum PC system requirements (Windows 10 64-bit, Intel Core i3 3.0 GHz / Ryzen 3xxx, 4 GB RAM, GTX 960 4 GB VRAM, DirectX 11, 3 GB storage), and explicitly states that the Steam Deck / ProtonDB tier is not yet publicly confirmed at launch.
+- Content changed: `/about/` and `/release/` callouts now reflect the 2026-09-11 launch-day snapshot and link to the new DLC guide; `/steam/` pricing summary no longer pretends to know the launch-day price.
+- Verification: `npm run verify` is required before pushing.
+
 ### YYYY-MM-DD - Template baseline initialized
