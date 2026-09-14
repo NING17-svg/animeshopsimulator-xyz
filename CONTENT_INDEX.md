@@ -24,6 +24,9 @@ hreflang, sitemap, and route-manifest validation.
 | `/co-op-multiplayer-setup` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator co-op multiplayer setup | Invite up to 4 players and split Cashier / Stocker / Decorator / Gambler roles | Shop Guide / Gameplay Overview / Walkthrough | Supporting hub | Co-op setup, Family Sharing, Steam Achievements. |
 | `/shop-defense-and-checkout` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator shop defense, checkout, and events | Defend against thieves, run 18+ manga scans, host autograph signings and card tournaments | Shop Guide / Gameplay Overview / Co-Op Setup | Supporting hub | Trusty bat, ID checks, body scanners, autograph signings, card tournaments. |
 | `/dlc-editions` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator DLC and editions on launch day | Decide between the Supporter Pack and the Naughty Shelf Pack on launch day (2026-09-11) | Steam Store Page / Release Date / Identity Overview | Supporting hub | Verbatim Steam DLC descriptions, content list (3 manga, 6 dakimakura, feet camera, stockings toggle), launch-day pricing situation, hidden-shelf unlock uncertainty. |
+| `/achievements` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator achievements and 100% completion | Plan a 100% completion run across all 38 Steam Achievements with global unlock percentages and a per-system path | Arcanis TCG Guide / Shop Defense / Patch Notes | Supporting hub | Full 38-achievement roster with named + hidden groups, Hotfix 1.0.3 multiplayer unlock fix, Arcanis cross-link. |
+| `/patch-notes` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator launch-day patch notes and bug tracker | Confirm which Hotfix 1.0.2 / 1.0.3 entry fixed which Steam Discussions bug | Co-Op Setup / Shop Defense / Achievements | Supporting hub | Hotfix 1.0.2 and 1.0.3 entries with verbatim patch notes, 9 active Steam Discussions bug threads with reply counts and fixed/open status, stale-caveat callouts. |
+| `/arcanis` | `src/data/pages/fixed-pages-3.ts` | Guide | Anime Shop Simulator Arcanis TCG card system | Plan a PvP-focused Arcanis playthrough with booster price, deck size, Battle Rank ladder, Shop Level thresholds, and Secret Shop unlock | Achievements / Patch Notes / Upgrades / Shop Management | Supporting hub | $5.33 fixed booster, 9-card deck, +2 type advantage, six-tier Battle Rank ladder, Shop Level 5/6 thresholds, 5-tournament Secret Shop unlock, Crystals/Reputation currencies. |
 
 ## Generated Route Families
 
@@ -34,7 +37,7 @@ hreflang, sitemap, and route-manifest validation.
 
 ## Content Clusters
 
-- Launch facts: `/release-date`, `/steam`, `/dlc-editions`, `/faq`
+- Launch facts: `/release-date`, `/steam`, `/dlc-editions`, `/patch-notes`, `/achievements`, `/arcanis`, `/faq`
 - Official facts and safe guide structure: `/wiki`, `/guides`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 

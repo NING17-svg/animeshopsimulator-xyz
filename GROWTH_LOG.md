@@ -50,4 +50,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Content changed: `/about/` and `/release/` callouts now reflect the 2026-09-11 launch-day snapshot and link to the new DLC guide; `/steam/` pricing summary no longer pretends to know the launch-day price.
 - Verification: `npm run verify` is required before pushing.
 
+### 2026-09-15 - Launch-week achievements, patch-notes, and Arcanis TCG guides
+
+- Task: Close the launch-week coverage gaps on AppID 3393280 by adding the 38-achievement roster with global unlock percentages, the Hotfix 1.0.2 (Sep 12) / 1.0.3 (Sep 13) patch-notes + 9 Steam Discussions bug threads tracker, and the Arcanis TCG booster / deck / ladder / Secret Shop unlock guide.
+- Files changed: `src/data/pages/fixed-pages-3.ts` (three new pages, four new Steam / TPO Sega Gaming source constants, refreshed co-op and shop-defense callouts), `src/data/pages/fixed-pages-2.ts` (`/walkthrough/` linkout map extended to include the three new guides and the related-page list updated), `src/data/pages/home.ts` (three new guide entries on the homepage and the matching `fixedPagesMoreIds`), `src/data/faq.ts` (12 new FAQ entries across achievements / patch-notes / Arcanis), `CONTENT_INDEX.md` (three new page rows and launch-facts cluster update), and `GROWTH_LOG.md` (this entry).
+- URLs affected: `/achievements` (new), `/patch-notes` (new), `/arcanis` (new); `/co-op-multiplayer-setup`, `/shop-defense-and-checkout`, `/walkthrough`, and `/` updated to link to the new guides and to reflect Hotfix 1.0.3's multiplayer-achievements fix and Hotfix 1.0.2's threat-density reduction.
+- SEO/GEO changed: Three new Article/BreadcrumbList/FAQPage pages now index the full 38-achievement roster with named + hidden groups (Card Collector Arc 22.5%, Legend of Cardmaster / I am the Champion / Road to the Finals 0.1%, six named hidden achievements), the verbatim Hotfix 1.0.2 and 1.0.3 patch notes paired against the 9 active Steam Discussions bug threads with reply counts and fixed/open status, and the Arcanis $5.33 fixed booster / 9-card deck / +2 type advantage / six-tier Battle Rank ladder / Shop Level 5 + 6 thresholds / 5-tournament Secret Shop unlock / Crystals + Reputation currency rules.
+- Content changed: `/co-op-multiplayer-setup` multiplayer-achievements caveat is now stale (Hotfix 1.0.3 fixed it) and the callout updated; `/shop-defense-and-checkout` Hotfix 1.0.2 threat-density caveat added; `/walkthrough/` link-out summary now lists all three new guides.
+- Verification: `npm run verify` is required before pushing.
+
 ### YYYY-MM-DD - Template baseline initialized

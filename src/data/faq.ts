@@ -661,4 +661,151 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+
+  // Achievements & 100% completion FAQs (AppID 3393280)
+  {
+    id: "achievements-how-many",
+    question:
+      "How many Steam Achievements does Anime Shop Simulator have?",
+    answer:
+      "The Steam Achievements page for AppID 3393280 lists 38 achievements with a global unlock percentage for each. The full roster — including Card Collector Arc (22.5%) and the three Arcanis mastery achievements at 0.1% — is on the [achievements and 100% completion guide](/achievements/).",
+    pageIds: ["fixed-achievements-100-completion-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "achievements-multiplayer-fix",
+    question:
+      "Do Steam Achievements unlock inside an Anime Shop Simulator co-op session?",
+    answer:
+      "Yes — Hotfix 1.0.3 (Sep 13) fixed Steam Achievements unlocking inside multiplayer sessions for AppID 3393280. All 38 achievements are now earnable inside the four-player co-op lobby on the same schedule as solo play. The [co-op multiplayer setup guide](/co-op-multiplayer-setup/) explains the lobby flow.",
+    pageIds: [
+      "fixed-achievements-100-completion-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+    ],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "achievements-rarest",
+    question:
+      "What is the rarest Anime Shop Simulator achievement?",
+    answer:
+      "Three Arcanis achievements sit at 0.1% global unlock: `The Legend of Cardmaster`, `I am the Champion`, and `Road to the Finals`. `Card Collector Arc` is the most-earned named achievement at 22.5%. The full live ranking lives on the [Steam Achievements page](https://steamcommunity.com/stats/3393280/achievements) and the [achievements guide](/achievements/).",
+    pageIds: ["fixed-achievements-100-completion-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "achievements-hidden-how",
+    question:
+      "How do hidden achievements work in Anime Shop Simulator?",
+    answer:
+      "Steam hides the unlock criteria for any achievement marked hidden until it fires on your own profile. Six named hidden achievements (`Superchew Single`, `Violin`, `EQ`, `Reverb`, `Aiya`, `Woem`) sit on the 38-entry roster for AppID 3393280. Steam does not publish hidden-achievement criteria, so treat third-party decodes as unverified.",
+    pageIds: ["fixed-achievements-100-completion-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // Patch notes / launch-day bug tracker FAQs (AppID 3393280)
+  {
+    id: "patch-latest-version",
+    question:
+      "What is the latest Anime Shop Simulator hotfix on Steam?",
+    answer:
+      "Hotfix 1.0.3 (Sep 13, 2026) is the latest entry on the Steam announcements feed for AppID 3393280. It fixed Steam Achievements unlock in multiplayer and updated upgraded booster visuals in the Secret Shop. Hotfix 1.0.2 (Sep 12, 2026) reduced trash / vandals / thieves counts on the shop-defense threat roster. Full entries and the bug-thread status table are on the [patch notes guide](/patch-notes/).",
+    pageIds: ["fixed-patch-notes-launch-day-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "patch-multiplayer-achievements-fix",
+    question:
+      "Did Hotfix 1.0.3 fix the multiplayer achievement unlock bug?",
+    answer:
+      "Yes. Hotfix 1.0.3 (Sep 13, 2026) explicitly fixed Steam Achievements unlocking inside multiplayer sessions for AppID 3393280, so the early-launch caveat on the co-op guide is now stale. The [patch notes guide](/patch-notes/) lists the change alongside the affected site caveat.",
+    pageIds: [
+      "fixed-patch-notes-launch-day-en-us",
+      "fixed-co-op-multiplayer-setup-en-us",
+    ],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "patch-threat-density",
+    question:
+      "Did Hotfix 1.0.2 change the shop-defense threat counts?",
+    answer:
+      "Yes. Hotfix 1.0.2 (Sep 12, 2026) reduced trash / vandals / thieves counts on the shop-defense threat roster for AppID 3393280, which lowers the launch-week threat density but does not change the threat names or the trusty bat counter tool. The [shop defense guide](/shop-defense-and-checkout/) and the [patch notes guide](/patch-notes/) both flag the post-hotfix baseline.",
+    pageIds: [
+      "fixed-patch-notes-launch-day-en-us",
+      "fixed-shop-defense-checkout-en-us",
+    ],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "patch-bug-report-where",
+    question:
+      "Where should I post an Anime Shop Simulator bug report?",
+    answer:
+      "Post launch-day bug reports on the [Steam Discussions](https://steamcommunity.com/app/3393280/discussions) for AppID 3393280. Search the existing 9 launch-day threads (My game keeps closing, Employee restocking shelves crash, Level up an employee?, Cant deliver to zone 2, drop-item threads, Mouse juddery, etc.) before opening a duplicate. The [patch notes guide](/patch-notes/) lists the threads with their reply counts.",
+    pageIds: ["fixed-patch-notes-launch-day-en-us"],
+    category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // Arcanis TCG card system FAQs (AppID 3393280)
+  {
+    id: "arcanis-booster-price",
+    question:
+      "How much does an Arcanis booster cost in Anime Shop Simulator?",
+    answer:
+      "An Arcanis booster costs $5.33 fixed, in-game currency. The booster price does not scale with shop upgrades — it stays at $5.33 regardless of Shop Level. The full booster / deck / ladder / Secret Shop chain is on the [Arcanis TCG guide](/arcanis/).",
+    pageIds: ["fixed-arcanis-tcg-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "arcanis-deck-size",
+    question:
+      "How many cards are in an Arcanis deck in Anime Shop Simulator?",
+    answer:
+      "A tournament-legal Arcanis deck is exactly 9 cards. The +2 type-advantage rule decides most exchanges, so build the 9-card deck around one or two dominant type lines plus a small bench of counter-picks. Selling cards is irreversible, so build the deck before spending. Full deck-building rules are on the [Arcanis TCG guide](/arcanis/).",
+    pageIds: ["fixed-arcanis-tcg-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "arcanis-secret-shop",
+    question:
+      "How do I unlock the Secret Shop in Anime Shop Simulator?",
+    answer:
+      "The Secret Shop unlocks after 5 tournament wins on the Battle Rank ladder for AppID 3393280. Boosters still cost $5.33 inside the Secret Shop, but the visuals are the upgraded set added by Hotfix 1.0.2. The full Battle Rank ladder (Common → Bronze → Silver → Gold → Platinum → Diamond) and the Secret Shop unlock chain are on the [Arcanis TCG guide](/arcanis/).",
+    pageIds: ["fixed-arcanis-tcg-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "arcanis-currencies",
+    question:
+      "What are Crystals and Reputation in Anime Shop Simulator?",
+    answer:
+      "Crystals are the Arcanis PvP winnings currency — they accumulate per tournament win and become spendable once the Secret Shop tier is open. Reputation is the ladder-progress currency — it advances your Battle Rank tier. The 1,000-crystal achievement is the long-tail currency goal and pairs with the four Arcanis achievements on the [achievements guide](/achievements/). The full currency rules are on the [Arcanis TCG guide](/arcanis/).",
+    pageIds: ["fixed-arcanis-tcg-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];

@@ -431,7 +431,7 @@ export const fixedPagesExtra: PageContent[] = [
         type: "prose",
         heading: "Link-out summary for the anime shop simulator walkthrough",
         body:
-          "Every guide referenced above lives on this site, so the link-out map for the anime shop simulator walkthrough is:\n\n- [identity overview](/about/)\n- [release date](/release/)\n- [Steam store page summary](/steam/)\n- [gameplay overview](/gameplay/)\n- [shop management guide](/shops/)\n- [upgrades and money guide](/upgrades/)\n- [demo and playtest page](/demo/)\n- [co-op multiplayer setup](/co-op-multiplayer-setup/)\n- [shop defense, checkout, and events](/shop-defense-and-checkout/)\n\nEach of those guides is part of the launch scope declared in the Site Plan and is the only place this hub links out to.",
+          "Every guide referenced above lives on this site, so the link-out map for the anime shop simulator walkthrough is:\n\n- [identity overview](/about/)\n- [release date](/release/)\n- [Steam store page summary](/steam/)\n- [gameplay overview](/gameplay/)\n- [shop management guide](/shops/)\n- [upgrades and money guide](/upgrades/)\n- [demo and playtest page](/demo/)\n- [co-op multiplayer setup](/co-op-multiplayer-setup/)\n- [shop defense, checkout, and events](/shop-defense-and-checkout/)\n- [achievements and 100% completion](/achievements/)\n- [launch-day patch notes and bug tracker](/patch-notes/)\n- [Arcanis TCG card system](/arcanis/)\n\nEach of those guides is part of the launch scope declared in the Site Plan and is the only place this hub links out to.",
       },
       {
         id: "walkthrough-sources",
@@ -458,9 +458,12 @@ export const fixedPagesExtra: PageContent[] = [
       "fixed-demo-playtest-en-us",
       "fixed-co-op-multiplayer-setup-en-us",
       "fixed-shop-defense-checkout-en-us",
+      "fixed-achievements-100-completion-en-us",
+      "fixed-patch-notes-launch-day-en-us",
+      "fixed-arcanis-tcg-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-15",
   },
 ];

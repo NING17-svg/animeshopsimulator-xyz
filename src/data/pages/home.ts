@@ -139,6 +139,24 @@ export const homePage: PageContent = {
             "Defend against thieves and vandals with the trusty bat, run 18+ manga ID checks and body scanners, and host autograph signings and card tournaments.",
           href: "/shop-defense-and-checkout/",
         },
+        {
+          title: "Achievements & 100% completion",
+          summary:
+            "Full 38 Steam Achievements list with global unlock percentages, hidden achievements, Hotfix 1.0.3 multiplayer unlock fix, and a 100% completion path by gameplay system.",
+          href: "/achievements/",
+        },
+        {
+          title: "Patch notes & known bugs",
+          summary:
+            "Hotfix 1.0.2 (Sep 12) and Hotfix 1.0.3 (Sep 13) entries paired against the 9 active Steam Discussions bug threads, with fixed / open status.",
+          href: "/patch-notes/",
+        },
+        {
+          title: "Arcanis TCG card system",
+          summary:
+            "$5.33 booster, 9-card deck, +2 type advantage, Battle Rank ladder, Shop Level 5 / 6 thresholds, 5-tournament Secret Shop unlock, and Crystals / Reputation currencies.",
+          href: "/arcanis/",
+        },
       ],
     },
     {
@@ -161,9 +179,12 @@ export const homePage: PageContent = {
     "fixed-demo-playtest-en-us",
     "fixed-co-op-multiplayer-setup-en-us",
     "fixed-shop-defense-checkout-en-us",
+    "fixed-achievements-100-completion-en-us",
+    "fixed-patch-notes-launch-day-en-us",
+    "fixed-arcanis-tcg-en-us",
     "guides",
   ],
   schemaTypes: ["WebSite", "CollectionPage", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-09-11",
+  lastReviewed: "2026-09-15",
 };
